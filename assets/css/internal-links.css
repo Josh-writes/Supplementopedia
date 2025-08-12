@@ -1,0 +1,66 @@
+.internal-link {
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 2px;
+    transition: all 0.2s ease;
+}
+
+.internal-link:hover {
+    text-decoration-thickness: 2px;
+}
+
+/* Content type specific colors */
+.ingredient-link {
+    color: #2563eb;
+}
+
+.ingredient-link:hover {
+    color: #1d4ed8;
+}
+
+.system-link {
+    color: #7c3aed;
+}
+
+.system-link:hover {
+    color: #6d28d9;
+}
+
+.category-link {
+    color: #059669;
+}
+
+.category-link:hover {
+    color: #047857;
+}
+
+.research-link {
+    color: #ea580c;
+}
+
+.research-link:hover {
+    color: #c2410c;
+}
+
+.content-link {
+    color: #4b5563;
+}
+
+.content-link:hover {
+    color: #374151;
+}
+
+/* High contrast mode support */
+@media (prefers-contrast: high) {
+    .internal-link {
+        text-decoration-thickness: 2px;
+        font-weight: 500;
+    }
+}
+
+/* Reduced motion support */
+@media (prefers-reduced-motion: reduce) {
+    .internal-link {
+        transition: none;
+    }
+}

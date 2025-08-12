@@ -1,0 +1,287 @@
+{
+  "meta": {
+    "generated_at": "2025-08-07T20:12:24.547176",
+    "description": "Body systems interaction data based on shared ingredients"
+  },
+  "interactions": [
+    {
+      "system1_name": "Immune System",
+      "system1_slug": "immune-system",
+      "system1_color": "#10B981",
+      "system2_name": "Skeletal System",
+      "system2_slug": "skeletal-system",
+      "system2_color": "#6B7280",
+      "shared_ingredients": 3
+    },
+    {
+      "system1_name": "Muscular System",
+      "system1_slug": "muscular-system",
+      "system1_color": "#DC2626",
+      "system2_name": "Energy & Metabolism",
+      "system2_slug": "energy-metabolism",
+      "system2_color": "#FBBF24",
+      "shared_ingredients": 2
+    },
+    {
+      "system1_name": "Nervous System",
+      "system1_slug": "nervous-system",
+      "system1_color": "#8B5CF6",
+      "system2_name": "Cardiovascular System",
+      "system2_slug": "cardiovascular-system",
+      "system2_color": "#EF4444",
+      "shared_ingredients": 1
+    },
+    {
+      "system1_name": "Nervous System",
+      "system1_slug": "nervous-system",
+      "system1_color": "#8B5CF6",
+      "system2_name": "Muscular System",
+      "system2_slug": "muscular-system",
+      "system2_color": "#DC2626",
+      "shared_ingredients": 1
+    },
+    {
+      "system1_name": "Nervous System",
+      "system1_slug": "nervous-system",
+      "system1_color": "#8B5CF6",
+      "system2_name": "Skeletal System",
+      "system2_slug": "skeletal-system",
+      "system2_color": "#6B7280",
+      "shared_ingredients": 1
+    },
+    {
+      "system1_name": "Nervous System",
+      "system1_slug": "nervous-system",
+      "system1_color": "#8B5CF6",
+      "system2_name": "Endocrine System",
+      "system2_slug": "endocrine-system",
+      "system2_color": "#7C3AED",
+      "shared_ingredients": 1
+    },
+    {
+      "system1_name": "Nervous System",
+      "system1_slug": "nervous-system",
+      "system1_color": "#8B5CF6",
+      "system2_name": "Sleep & Recovery",
+      "system2_slug": "sleep-recovery",
+      "system2_color": "#6366F1",
+      "shared_ingredients": 1
+    },
+    {
+      "system1_name": "Immune System",
+      "system1_slug": "immune-system",
+      "system1_color": "#10B981",
+      "system2_name": "Digestive System",
+      "system2_slug": "digestive-system",
+      "system2_color": "#F59E0B",
+      "shared_ingredients": 1
+    },
+    {
+      "system1_name": "Immune System",
+      "system1_slug": "immune-system",
+      "system1_color": "#10B981",
+      "system2_name": "Integumentary System",
+      "system2_slug": "skin-hair-nails",
+      "system2_color": "#F97316",
+      "shared_ingredients": 1
+    },
+    {
+      "system1_name": "Cardiovascular System",
+      "system1_slug": "cardiovascular-system",
+      "system1_color": "#EF4444",
+      "system2_name": "Energy & Metabolism",
+      "system2_slug": "energy-metabolism",
+      "system2_color": "#FBBF24",
+      "shared_ingredients": 1
+    },
+    {
+      "system1_name": "Muscular System",
+      "system1_slug": "muscular-system",
+      "system1_color": "#DC2626",
+      "system2_name": "Skeletal System",
+      "system2_slug": "skeletal-system",
+      "system2_color": "#6B7280",
+      "shared_ingredients": 1
+    },
+    {
+      "system1_name": "Skeletal System",
+      "system1_slug": "skeletal-system",
+      "system1_color": "#6B7280",
+      "system2_name": "Integumentary System",
+      "system2_slug": "skin-hair-nails",
+      "system2_color": "#F97316",
+      "shared_ingredients": 1
+    }
+  ],
+  "network_data": {
+    "nodes": [
+      {
+        "id": "nervous-system",
+        "name": "Nervous System",
+        "color": "#8B5CF6",
+        "size": 4,
+        "priority": 95
+      },
+      {
+        "id": "immune-system",
+        "name": "Immune System",
+        "color": "#10B981",
+        "size": 5,
+        "priority": 90
+      },
+      {
+        "id": "cardiovascular-system",
+        "name": "Cardiovascular System",
+        "color": "#EF4444",
+        "size": 2,
+        "priority": 85
+      },
+      {
+        "id": "digestive-system",
+        "name": "Digestive System",
+        "color": "#F59E0B",
+        "size": 1,
+        "priority": 80
+      },
+      {
+        "id": "energy-metabolism",
+        "name": "Energy & Metabolism",
+        "color": "#FBBF24",
+        "size": 3,
+        "priority": 80
+      },
+      {
+        "id": "muscular-system",
+        "name": "Muscular System",
+        "color": "#DC2626",
+        "size": 3,
+        "priority": 75
+      },
+      {
+        "id": "endocrine-system",
+        "name": "Endocrine System",
+        "color": "#7C3AED",
+        "size": 1,
+        "priority": 75
+      },
+      {
+        "id": "sleep-recovery",
+        "name": "Sleep & Recovery",
+        "color": "#6366F1",
+        "size": 1,
+        "priority": 75
+      },
+      {
+        "id": "skeletal-system",
+        "name": "Skeletal System",
+        "color": "#6B7280",
+        "size": 5,
+        "priority": 70
+      },
+      {
+        "id": "skin-hair-nails",
+        "name": "Integumentary System",
+        "color": "#F97316",
+        "size": 2,
+        "priority": 70
+      },
+      {
+        "id": "respiratory-system",
+        "name": "Respiratory System",
+        "color": "#06B6D4",
+        "size": 1,
+        "priority": 65
+      },
+      {
+        "id": "reproductive-system",
+        "name": "Reproductive System",
+        "color": "#EC4899",
+        "size": 1,
+        "priority": 65
+      },
+      {
+        "id": "urinary-system",
+        "name": "Urinary System",
+        "color": "#0891B2",
+        "size": 1,
+        "priority": 60
+      },
+      {
+        "id": "sensory-system",
+        "name": "Sensory System",
+        "color": "#4338CA",
+        "size": 1,
+        "priority": 60
+      },
+      {
+        "id": "lymphatic-system",
+        "name": "Lymphatic System",
+        "color": "#059669",
+        "size": 1,
+        "priority": 55
+      }
+    ],
+    "links": [
+      {
+        "source": "immune-system",
+        "target": "skeletal-system",
+        "weight": 3
+      },
+      {
+        "source": "muscular-system",
+        "target": "energy-metabolism",
+        "weight": 2
+      },
+      {
+        "source": "nervous-system",
+        "target": "cardiovascular-system",
+        "weight": 1
+      },
+      {
+        "source": "nervous-system",
+        "target": "muscular-system",
+        "weight": 1
+      },
+      {
+        "source": "nervous-system",
+        "target": "skeletal-system",
+        "weight": 1
+      },
+      {
+        "source": "nervous-system",
+        "target": "endocrine-system",
+        "weight": 1
+      },
+      {
+        "source": "nervous-system",
+        "target": "sleep-recovery",
+        "weight": 1
+      },
+      {
+        "source": "immune-system",
+        "target": "digestive-system",
+        "weight": 1
+      },
+      {
+        "source": "immune-system",
+        "target": "skin-hair-nails",
+        "weight": 1
+      },
+      {
+        "source": "cardiovascular-system",
+        "target": "energy-metabolism",
+        "weight": 1
+      },
+      {
+        "source": "muscular-system",
+        "target": "skeletal-system",
+        "weight": 1
+      },
+      {
+        "source": "skeletal-system",
+        "target": "skin-hair-nails",
+        "weight": 1
+      }
+    ]
+  }
+}

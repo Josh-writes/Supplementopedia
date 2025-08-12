@@ -1,0 +1,19 @@
+User-agent: *
+Allow: /
+
+# Allow all search engines to crawl the site
+Allow: /ingredients/
+Allow: /brands/
+Allow: /categories/
+Allow: /systems/
+Allow: /products/
+
+# Block admin or sensitive areas if they exist
+Disallow: /admin/
+Disallow: /private/
+
+# Sitemap location
+Sitemap: https://supplementopedia.com/sitemap.xml
+
+# Crawl delay (optional - be respectful)
+Crawl-delay: 1
