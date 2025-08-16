@@ -360,675 +360,6 @@
     
     <!-- Page specific head content -->
     
-</head>
-<body class="bg-gray-50 min-h-screen flex flex-col">
-    
-    <!-- Header Block -->
-    
-        <!-- Header -->
-<header class="bg-black text-white">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="flex justify-center items-center h-16">
-            <a href="/" class="text-3xl font-bold text-white hover:text-blue-300 transition-colors">
-                Supplementopedia
-            </a>
-        </div>
-    </div>
-</header>
-    
-    
-    <!-- Navigation Block -->
-    
-        <!-- Primary Navigation -->
-<nav class="bg-white border-b border-gray-200">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="flex justify-center space-x-8 py-3">
-            <a href="/ingredients/" class="text-gray-700 hover:text-blue-600 font-medium transition-colors">
-                Ingredients
-            </a>
-            <a href="/systems/" class="text-gray-700 hover:text-blue-600 font-medium transition-colors">
-                Body Systems
-            </a>
-            <a href="/categories/" class="text-gray-700 hover:text-blue-600 font-medium transition-colors">
-                Health Categories
-            </a>
-            <a href="/brands/" class="text-gray-700 hover:text-blue-600 font-medium transition-colors">
-                Brands
-            </a>
-            <a href="/research/" class="text-gray-700 hover:text-blue-600 font-medium transition-colors">
-                Research
-            </a>
-        </div>
-    </div>
-</nav>
-    
-    
-    <!-- Search Block (can be overridden to hide on homepage) -->
-    
-        
-            <!-- Search Bar Component -->
-<div class="bg-white border-b border-gray-200">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
-        <div class="max-w-2xl mx-auto">
-            <div class="relative">
-                <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
-                    <svg class="h-5 w-5 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
-                    </svg>
-                </div>
-                <input 
-                    type="text" 
-                    id="global-search" 
-                    class="block w-full pl-10 pr-4 py-3 border border-gray-300 rounded-lg leading-5 bg-white placeholder-gray-500 focus:outline-none focus:placeholder-gray-400 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 text-sm"
-                    placeholder="Search ingredients, brands, products..."
-                    autocomplete="off"
-                >
-                <div class="absolute inset-y-0 right-0 pr-3 flex items-center">
-                    <kbd class="inline-flex items-center px-2 py-1 border border-gray-200 rounded text-xs font-sans font-medium text-gray-400">
-                        Ctrl K
-                    </kbd>
-                </div>
-            </div>
-            <!-- Search Results Container (Hidden by default) -->
-            <div id="search-results" class="hidden absolute z-50 w-full mt-1 bg-white rounded-lg shadow-lg border border-gray-200 max-h-96 overflow-y-auto">
-                <div id="search-results-content">
-                    <!-- Search results will be populated here -->
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- Basic Search JavaScript -->
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-    const searchInput = document.getElementById('global-search');
-    const searchResults = document.getElementById('search-results');
-    const resultsContent = document.getElementById('search-results-content');
-    
-    // Keyboard shortcut (Ctrl+K)
-    document.addEventListener('keydown', function(e) {
-        if (e.ctrlKey && e.key === 'k') {
-            e.preventDefault();
-            searchInput.focus();
-        }
-        
-        // ESC to close search results
-        if (e.key === 'Escape') {
-            searchResults.classList.add('hidden');
-        }
-    });
-    
-    // Basic search functionality
-    let searchTimeout;
-    searchInput.addEventListener('input', function(e) {
-        clearTimeout(searchTimeout);
-        const query = e.target.value.trim();
-        
-        if (query.length < 2) {
-            searchResults.classList.add('hidden');
-            return;
-        }
-        
-        searchTimeout = setTimeout(() => {
-            performSearch(query);
-        }, 300);
-    });
-    
-    // Hide results when clicking outside
-    document.addEventListener('click', function(e) {
-        if (!e.target.closest('#global-search') && !e.target.closest('#search-results')) {
-            searchResults.classList.add('hidden');
-        }
-    });
-    
-    async function performSearch(query) {
-        try {
-            // This will be enhanced to use the actual search.json file
-            const response = await fetch('/search.json');
-            const data = await response.json();
-            
-            const results = searchData(data, query);
-            displayResults(results);
-        } catch (error) {
-            console.error('Search error:', error);
-            // Fallback to simple page redirect
-            resultsContent.innerHTML = `
-                <div class="p-4 text-center">
-                    <p class="text-gray-600">Press Enter to search</p>
-                </div>
-            `;
-            searchResults.classList.remove('hidden');
-        }
-    }
-    
-    function searchData(data, query) {
-        const results = [];
-        const queryLower = query.toLowerCase();
-        
-        // Search ingredients
-        if (data.ingredients) {
-            data.ingredients.forEach(item => {
-                if (item.name && item.name.toLowerCase().includes(queryLower)) {
-                    results.push({
-                        type: 'ingredient',
-                        name: item.name,
-                        url: `/ingredients/${item.slug || item.name.toLowerCase().replace(/\s+/g, '-')}/`,
-                        category: item.category || 'Supplement'
-                    });
-                }
-            });
-        }
-        
-        // Search brands
-        if (data.brands) {
-            data.brands.forEach(item => {
-                if (item.name && item.name.toLowerCase().includes(queryLower)) {
-                    results.push({
-                        type: 'brand',
-                        name: item.name,
-                        url: `/brands/${item.slug || item.name.toLowerCase().replace(/\s+/g, '-')}/`,
-                        category: `${item.product_count || 0} products`
-                    });
-                }
-            });
-        }
-        
-        return results.slice(0, 10); // Limit to 10 results
-    }
-    
-    function displayResults(results) {
-        if (results.length === 0) {
-            resultsContent.innerHTML = `
-                <div class="p-4 text-center">
-                    <p class="text-gray-600">No results found</p>
-                </div>
-            `;
-        } else {
-            resultsContent.innerHTML = results.map(result => `
-                <a href="${result.url}" class="block px-4 py-3 hover:bg-gray-50 border-b border-gray-100 last:border-b-0">
-                    <div class="flex items-center justify-between">
-                        <div>
-                            <p class="text-sm font-medium text-gray-900">${result.name}</p>
-                            <p class="text-xs text-gray-500">${result.category}</p>
-                        </div>
-                        <span class="inline-flex items-center px-2 py-1 rounded-full text-xs font-medium ${
-                            result.type === 'ingredient' ? 'bg-blue-100 text-blue-800' :
-                            result.type === 'brand' ? 'bg-green-100 text-green-800' :
-                            'bg-gray-100 text-gray-800'
-                        }">
-                            ${result.type}
-                        </span>
-                    </div>
-                </a>
-            `).join('');
-        }
-        
-        searchResults.classList.remove('hidden');
-    }
-    
-    // Handle Enter key to perform search
-    searchInput.addEventListener('keydown', function(e) {
-        if (e.key === 'Enter') {
-            e.preventDefault();
-            const query = e.target.value.trim();
-            if (query) {
-                handleEnterSearch(query);
-            }
-        }
-    });
-    
-    async function handleEnterSearch(query) {
-        try {
-            const response = await fetch('/search.json');
-            const data = await response.json();
-            
-            // Look for exact match first
-            const exactMatch = findExactMatch(data, query);
-            if (exactMatch) {
-                window.location.href = exactMatch.url;
-                return;
-            }
-            
-            // If no exact match, go to ingredients index with search term
-            const ingredientsUrl = `/ingredients/?search=${encodeURIComponent(query)}`;
-            window.location.href = ingredientsUrl;
-            
-        } catch (error) {
-            console.error('Search error:', error);
-            // Fallback to ingredients page
-            window.location.href = `/ingredients/?search=${encodeURIComponent(query)}`;
-        }
-    }
-    
-    function findExactMatch(data, query) {
-        const queryLower = query.toLowerCase();
-        
-        // Check ingredients for exact match
-        if (data.ingredients) {
-            const exactIngredient = data.ingredients.find(item => 
-                item.name && item.name.toLowerCase() === queryLower
-            );
-            if (exactIngredient) {
-                return {
-                    type: 'ingredient',
-                    name: exactIngredient.name,
-                    url: `/ingredients/${exactIngredient.slug || exactIngredient.name.toLowerCase().replace(/\s+/g, '-')}/`
-                };
-            }
-        }
-        
-        // Check brands for exact match
-        if (data.brands) {
-            const exactBrand = data.brands.find(item => 
-                item.name && item.name.toLowerCase() === queryLower
-            );
-            if (exactBrand) {
-                return {
-                    type: 'brand',
-                    name: exactBrand.name,
-                    url: `/brands/${exactBrand.slug || exactBrand.name.toLowerCase().replace(/\s+/g, '-')}/`
-                };
-            }
-        }
-        
-        return null;
-    }
-});
-</script>
-        
-    
-    
-    <!-- Disclaimer Block -->
-    
-        <!-- Medical Disclaimer Banner -->
-<div class="bg-yellow-50 border-l-4 border-yellow-400">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3">
-        <div class="flex items-center">
-            <div class="flex-shrink-0">
-                <svg class="h-5 w-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
-                    <path fill-rule="evenodd" d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.213 2.98-1.742 2.98H4.42c-1.53 0-2.493-1.646-1.743-2.98l5.58-9.92zM11 13a1 1 0 11-2 0 1 1 0 012 0zm-1-8a1 1 0 00-1 1v3a1 1 0 002 0V6a1 1 0 00-1-1z" clip-rule="evenodd"></path>
-                </svg>
-            </div>
-            <div class="ml-3">
-                <p class="text-sm font-medium text-yellow-800">
-                    <strong>Medical Disclaimer:</strong> This information is for educational purposes only and not intended as medical advice. 
-                    Consult healthcare professionals before starting any supplement regimen.
-                    <a href="/disclaimer/" class="underline hover:text-yellow-900 ml-1">Full Disclaimer</a>
-                </p>
-            </div>
-        </div>
-    </div>
-</div>
-    
-    
-    <!-- Main Content Container -->
-    <div class="page-container flex-grow">
-        <!-- Main Content Block -->
-        <main class="order-1">
-            
-                <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name='impact-site-verification' value='5a1b13c5-40eb-4160-adc5-be4507bdbc09'>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <!-- Dynamic Title -->
-    <title>Creatine for Fatigue? New Study Shows Promise | Supplementopedia</title>
-    <meta name="description" content="## Creatine for Fatigue? New Study Shows Promise
-
-**Quick Summary:** A recent study found a substance from a plant called *Millettia speciosa* helped mice ">
-    
-    <!-- SEO Meta Tags -->
-    <meta name="keywords" content="supplements, vitamins, minerals, health, nutrition, reviews">
-    <meta name="author" content="Supplementopedia">
-    <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://supplementopedia.com/research/the-physicochemical-properties-and-anti-fatigue-efficacy-of/">
-    
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="article">
-    <meta property="og:url" content="https://supplementopedia.com/research/the-physicochemical-properties-and-anti-fatigue-efficacy-of/">
-    <meta property="og:title" content="Creatine for Fatigue? New Study Shows Promise">
-    <meta property="og:description" content="## Creatine for Fatigue? New Study Shows Promise
-
-**Quick Summary:** A recent study found a substance from a plant called *Millettia speciosa* helped mice ">
-    <meta property="og:site_name" content="Supplementopedia">
-    
-    <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:title" content="Creatine for Fatigue? New Study Shows Promise">
-    <meta property="twitter:description" content="## Creatine for Fatigue? New Study Shows Promise
-
-**Quick Summary:** A recent study found a substance from a plant called *Millettia speciosa* helped mice ">
-    
-    <!-- Additional SEO -->
-    <meta name="theme-color" content="#2563eb">
-    <meta name="application-name" content="Supplementopedia">
-    
-    <!-- Tailwind CSS -->
-    <script src="https://cdn.tailwindcss.com"></script>
-    
-    <!-- Internal Links CSS -->
-    <link rel="stylesheet" href="/assets/css/internal-links.css">
-    
-    <!-- Enhanced Prose Styling -->
-    <style>
-        /* Comprehensive prose styling for AI-generated content */
-        .prose {
-            max-width: none;
-            color: #374151;
-            line-height: 1.75;
-        }
-        
-        .prose p {
-            margin-top: 1.25rem;
-            margin-bottom: 1.25rem;
-            line-height: 1.7;
-        }
-        
-        .prose p:first-child {
-            margin-top: 0;
-        }
-        
-        .prose p:last-child {
-            margin-bottom: 0;
-        }
-        
-        /* Headings */
-        .prose h1, .prose h2, .prose h3, .prose h4, .prose h5, .prose h6 {
-            color: #111827;
-            font-weight: 600;
-            line-height: 1.25;
-            margin-top: 2rem;
-            margin-bottom: 1rem;
-        }
-        
-        .prose h1:first-child, .prose h2:first-child, .prose h3:first-child {
-            margin-top: 0;
-        }
-        
-        .prose h2 {
-            font-size: 1.5rem;
-            border-bottom: 1px solid #e5e7eb;
-            padding-bottom: 0.5rem;
-        }
-        
-        .prose h3 {
-            font-size: 1.25rem;
-        }
-        
-        /* Lists */
-        .prose ul, .prose ol {
-            margin-top: 1.25rem;
-            margin-bottom: 1.25rem;
-            padding-left: 1.75rem;
-        }
-        
-        .prose ul {
-            list-style-type: disc;
-        }
-        
-        .prose ol {
-            list-style-type: decimal;
-        }
-        
-        .prose li {
-            margin-top: 0.75rem;
-            margin-bottom: 0.75rem;
-            line-height: 1.6;
-        }
-        
-        .prose li p {
-            margin-top: 0.75rem;
-            margin-bottom: 0.75rem;
-        }
-        
-        .prose ul > li::marker {
-            color: #6b7280;
-        }
-        
-        .prose ol > li::marker {
-            color: #6b7280;
-            font-weight: 400;
-        }
-        
-        /* Nested lists */
-        .prose ul ul, .prose ul ol, .prose ol ul, .prose ol ol {
-            margin-top: 0.5rem;
-            margin-bottom: 0.5rem;
-        }
-        
-        /* Text formatting */
-        .prose strong {
-            color: #111827;
-            font-weight: 600;
-        }
-        
-        .prose em {
-            color: #374151;
-            font-style: italic;
-        }
-        
-        .prose code {
-            color: #111827;
-            font-weight: 500;
-            font-size: 0.875rem;
-            background-color: #f3f4f6;
-            padding: 0.25rem 0.375rem;
-            border-radius: 0.25rem;
-            font-family: ui-monospace, SFMono-Regular, "SF Mono", Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-        }
-        
-        /* Blockquotes */
-        .prose blockquote {
-            font-weight: 500;
-            font-style: italic;
-            color: #111827;
-            border-left-width: 0.25rem;
-            border-left-color: #e5e7eb;
-            quotes: "\201C""\201D""\2018""\2019";
-            margin-top: 1.6rem;
-            margin-bottom: 1.6rem;
-            padding-left: 1rem;
-        }
-        
-        /* Tables */
-        .prose table {
-            width: 100%;
-            table-layout: auto;
-            text-align: left;
-            margin-top: 2rem;
-            margin-bottom: 2rem;
-            font-size: 0.875rem;
-            line-height: 1.7142857;
-        }
-        
-        .prose thead {
-            border-bottom-width: 1px;
-            border-bottom-color: #d1d5db;
-        }
-        
-        .prose thead th {
-            color: #111827;
-            font-weight: 600;
-            vertical-align: bottom;
-            padding-right: 0.75rem;
-            padding-bottom: 0.75rem;
-            padding-left: 0.75rem;
-        }
-        
-        .prose tbody tr {
-            border-bottom-width: 1px;
-            border-bottom-color: #e5e7eb;
-        }
-        
-        .prose tbody td {
-            vertical-align: baseline;
-            padding-top: 0.75rem;
-            padding-right: 0.75rem;
-            padding-bottom: 0.75rem;
-            padding-left: 0.75rem;
-        }
-        
-        /* Links */
-        .prose a {
-            color: #2563eb;
-            text-decoration: underline;
-            font-weight: 500;
-        }
-        
-        .prose a:hover {
-            color: #1d4ed8;
-        }
-        
-        /* HR */
-        .prose hr {
-            border-color: #e5e7eb;
-            border-top-width: 1px;
-            margin-top: 3rem;
-            margin-bottom: 3rem;
-        }
-        
-        /* Special formatting for dosage and safety sections */
-        .prose .dosage-highlight {
-            background-color: #dbeafe;
-            border: 1px solid #93c5fd;
-            border-radius: 0.5rem;
-            padding: 1rem;
-            margin: 1rem 0;
-        }
-        
-        .prose .safety-warning {
-            background-color: #fef3c7;
-            border: 1px solid #fcd34d;
-            border-left: 4px solid #f59e0b;
-            border-radius: 0.5rem;
-            padding: 1rem;
-            margin: 1rem 0;
-        }
-        
-        /* Fix for cards with prose content */
-        .card .prose p:first-child {
-            margin-top: 0;
-        }
-        
-        .card .prose p:last-child {
-            margin-bottom: 0;
-        }
-        
-        /* Research page specific styling */
-        .research-item {
-            transition: all 0.2s ease-in-out;
-        }
-        
-        .research-item:hover {
-            transform: translateY(-2px);
-        }
-        
-        .research-metadata {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 0.75rem;
-            margin-bottom: 1rem;
-        }
-        
-        .research-metadata .badge {
-            display: inline-flex;
-            align-items: center;
-            padding: 0.25rem 0.75rem;
-            font-size: 0.75rem;
-            font-weight: 500;
-            border-radius: 9999px;
-        }
-        
-        .research-preview {
-            background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
-            border-radius: 0.5rem;
-            padding: 1rem;
-            margin: 1rem 0;
-        }
-        
-        .study-section {
-            margin-bottom: 2rem;
-            padding-bottom: 1.5rem;
-            border-bottom: 1px solid #e5e7eb;
-        }
-        
-        .study-section:last-child {
-            border-bottom: none;
-            margin-bottom: 0;
-        }
-        
-        .study-section h2 {
-            color: #1f2937;
-            font-size: 1.25rem;
-            font-weight: 600;
-            margin-bottom: 1rem;
-            padding-bottom: 0.5rem;
-            border-bottom: 2px solid #e5e7eb;
-        }
-        
-        /* Enhanced search and filter styling */
-        #research-search:focus {
-            box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
-        }
-        
-        #study-type-filter:focus {
-            box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
-        }
-        
-        /* Research stats badges */
-        .research-stats .stat-badge {
-            background: linear-gradient(135deg, #dbeafe 0%, #bfdbfe 100%);
-            border: 1px solid #93c5fd;
-        }
-        
-        /* Line clamp utility for consistent text truncation */
-        .line-clamp-2 {
-            display: -webkit-box;
-            -webkit-line-clamp: 2;
-            -webkit-box-orient: vertical;
-            overflow: hidden;
-        }
-        
-        .line-clamp-3 {
-            display: -webkit-box;
-            -webkit-line-clamp: 3;
-            -webkit-box-orient: vertical;
-            overflow: hidden;
-        }
-
-        /* Page layout structure */
-        .page-container {
-            display: grid;
-            grid-template-columns: 1fr;
-            gap: 2rem;
-            max-width: 7xl;
-            margin: 0 auto;
-            padding: 0 1rem;
-        }
-        
-        @media (min-width: 1024px) {
-            .page-container {
-                grid-template-columns: 1fr 300px;
-                padding: 0 2rem;
-            }
-        }
-        
-        .right-rail {
-            order: 2;
-        }
-        
-        @media (max-width: 1023px) {
-            .right-rail {
-                order: 1;
-            }
-        }
-    </style>
-    
-    <!-- Page specific head content -->
-    
 <!-- Research Article Schema Markup -->
 <script type="application/ld+json">
 {
@@ -1099,237 +430,6 @@ document.addEventListener('DOMContentLoaded', function() {
     <!-- Search Block (can be overridden to hide on homepage) -->
     
         
-            <!-- Search Bar Component -->
-<div class="bg-white border-b border-gray-200">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
-        <div class="max-w-2xl mx-auto">
-            <div class="relative">
-                <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
-                    <svg class="h-5 w-5 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
-                    </svg>
-                </div>
-                <input 
-                    type="text" 
-                    id="global-search" 
-                    class="block w-full pl-10 pr-4 py-3 border border-gray-300 rounded-lg leading-5 bg-white placeholder-gray-500 focus:outline-none focus:placeholder-gray-400 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 text-sm"
-                    placeholder="Search ingredients, brands, products..."
-                    autocomplete="off"
-                >
-                <div class="absolute inset-y-0 right-0 pr-3 flex items-center">
-                    <kbd class="inline-flex items-center px-2 py-1 border border-gray-200 rounded text-xs font-sans font-medium text-gray-400">
-                        Ctrl K
-                    </kbd>
-                </div>
-            </div>
-            <!-- Search Results Container (Hidden by default) -->
-            <div id="search-results" class="hidden absolute z-50 w-full mt-1 bg-white rounded-lg shadow-lg border border-gray-200 max-h-96 overflow-y-auto">
-                <div id="search-results-content">
-                    <!-- Search results will be populated here -->
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- Basic Search JavaScript -->
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-    const searchInput = document.getElementById('global-search');
-    const searchResults = document.getElementById('search-results');
-    const resultsContent = document.getElementById('search-results-content');
-    
-    // Keyboard shortcut (Ctrl+K)
-    document.addEventListener('keydown', function(e) {
-        if (e.ctrlKey && e.key === 'k') {
-            e.preventDefault();
-            searchInput.focus();
-        }
-        
-        // ESC to close search results
-        if (e.key === 'Escape') {
-            searchResults.classList.add('hidden');
-        }
-    });
-    
-    // Basic search functionality
-    let searchTimeout;
-    searchInput.addEventListener('input', function(e) {
-        clearTimeout(searchTimeout);
-        const query = e.target.value.trim();
-        
-        if (query.length < 2) {
-            searchResults.classList.add('hidden');
-            return;
-        }
-        
-        searchTimeout = setTimeout(() => {
-            performSearch(query);
-        }, 300);
-    });
-    
-    // Hide results when clicking outside
-    document.addEventListener('click', function(e) {
-        if (!e.target.closest('#global-search') && !e.target.closest('#search-results')) {
-            searchResults.classList.add('hidden');
-        }
-    });
-    
-    async function performSearch(query) {
-        try {
-            // This will be enhanced to use the actual search.json file
-            const response = await fetch('/search.json');
-            const data = await response.json();
-            
-            const results = searchData(data, query);
-            displayResults(results);
-        } catch (error) {
-            console.error('Search error:', error);
-            // Fallback to simple page redirect
-            resultsContent.innerHTML = `
-                <div class="p-4 text-center">
-                    <p class="text-gray-600">Press Enter to search</p>
-                </div>
-            `;
-            searchResults.classList.remove('hidden');
-        }
-    }
-    
-    function searchData(data, query) {
-        const results = [];
-        const queryLower = query.toLowerCase();
-        
-        // Search ingredients
-        if (data.ingredients) {
-            data.ingredients.forEach(item => {
-                if (item.name && item.name.toLowerCase().includes(queryLower)) {
-                    results.push({
-                        type: 'ingredient',
-                        name: item.name,
-                        url: `/ingredients/${item.slug || item.name.toLowerCase().replace(/\s+/g, '-')}/`,
-                        category: item.category || 'Supplement'
-                    });
-                }
-            });
-        }
-        
-        // Search brands
-        if (data.brands) {
-            data.brands.forEach(item => {
-                if (item.name && item.name.toLowerCase().includes(queryLower)) {
-                    results.push({
-                        type: 'brand',
-                        name: item.name,
-                        url: `/brands/${item.slug || item.name.toLowerCase().replace(/\s+/g, '-')}/`,
-                        category: `${item.product_count || 0} products`
-                    });
-                }
-            });
-        }
-        
-        return results.slice(0, 10); // Limit to 10 results
-    }
-    
-    function displayResults(results) {
-        if (results.length === 0) {
-            resultsContent.innerHTML = `
-                <div class="p-4 text-center">
-                    <p class="text-gray-600">No results found</p>
-                </div>
-            `;
-        } else {
-            resultsContent.innerHTML = results.map(result => `
-                <a href="${result.url}" class="block px-4 py-3 hover:bg-gray-50 border-b border-gray-100 last:border-b-0">
-                    <div class="flex items-center justify-between">
-                        <div>
-                            <p class="text-sm font-medium text-gray-900">${result.name}</p>
-                            <p class="text-xs text-gray-500">${result.category}</p>
-                        </div>
-                        <span class="inline-flex items-center px-2 py-1 rounded-full text-xs font-medium ${
-                            result.type === 'ingredient' ? 'bg-blue-100 text-blue-800' :
-                            result.type === 'brand' ? 'bg-green-100 text-green-800' :
-                            'bg-gray-100 text-gray-800'
-                        }">
-                            ${result.type}
-                        </span>
-                    </div>
-                </a>
-            `).join('');
-        }
-        
-        searchResults.classList.remove('hidden');
-    }
-    
-    // Handle Enter key to perform search
-    searchInput.addEventListener('keydown', function(e) {
-        if (e.key === 'Enter') {
-            e.preventDefault();
-            const query = e.target.value.trim();
-            if (query) {
-                handleEnterSearch(query);
-            }
-        }
-    });
-    
-    async function handleEnterSearch(query) {
-        try {
-            const response = await fetch('/search.json');
-            const data = await response.json();
-            
-            // Look for exact match first
-            const exactMatch = findExactMatch(data, query);
-            if (exactMatch) {
-                window.location.href = exactMatch.url;
-                return;
-            }
-            
-            // If no exact match, go to ingredients index with search term
-            const ingredientsUrl = `/ingredients/?search=${encodeURIComponent(query)}`;
-            window.location.href = ingredientsUrl;
-            
-        } catch (error) {
-            console.error('Search error:', error);
-            // Fallback to ingredients page
-            window.location.href = `/ingredients/?search=${encodeURIComponent(query)}`;
-        }
-    }
-    
-    function findExactMatch(data, query) {
-        const queryLower = query.toLowerCase();
-        
-        // Check ingredients for exact match
-        if (data.ingredients) {
-            const exactIngredient = data.ingredients.find(item => 
-                item.name && item.name.toLowerCase() === queryLower
-            );
-            if (exactIngredient) {
-                return {
-                    type: 'ingredient',
-                    name: exactIngredient.name,
-                    url: `/ingredients/${exactIngredient.slug || exactIngredient.name.toLowerCase().replace(/\s+/g, '-')}/`
-                };
-            }
-        }
-        
-        // Check brands for exact match
-        if (data.brands) {
-            const exactBrand = data.brands.find(item => 
-                item.name && item.name.toLowerCase() === queryLower
-            );
-            if (exactBrand) {
-                return {
-                    type: 'brand',
-                    name: exactBrand.name,
-                    url: `/brands/${exactBrand.slug || exactBrand.name.toLowerCase().replace(/\s+/g, '-')}/`
-                };
-            }
-        }
-        
-        return null;
-    }
-});
-</script>
-        
     
     
     <!-- Disclaimer Block -->
@@ -1361,7 +461,7 @@ document.addEventListener('DOMContentLoaded', function() {
         <main class="order-1">
             
 <!-- Breadcrumb Navigation -->
-<div class="bg-white border-b border-gray-200">
+<div class="bg-white border-b border-gray-200 -mx-4 sm:-mx-6 lg:-mx-8 mb-8">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3">
         <nav class="flex text-sm text-gray-500">
             <a href="/" class="hover:text-gray-700">Supplementopedia</a>
@@ -1374,8 +474,6 @@ document.addEventListener('DOMContentLoaded', function() {
         </nav>
     </div>
 </div>
-
-<div class="max-w-5xl mx-auto py-8 px-4 sm:px-6 lg:px-8">
     
     <!-- Article Header -->
     <header class="bg-white rounded-lg shadow-sm border border-gray-200 p-6 mb-8">
@@ -1446,47 +544,40 @@ document.addEventListener('DOMContentLoaded', function() {
         </div>
     </header>
 
-    <!-- Main Content Grid -->
-    <div class="grid grid-cols-1 lg:grid-cols-4 gap-8">
-        
-        <!-- Main Research Content -->
-        <div class="lg:col-span-3">
-            <article class="bg-white rounded-lg shadow-sm border border-gray-200">
+    <!-- Main Research Content -->
+    <article class="bg-white rounded-lg shadow-sm border border-gray-200">
                 <div class="p-6">
                     
                     <!-- Consumer-Friendly SEO Content (Primary) -->
                     
                     <div class="prose max-w-none mb-8">
-                        ## Creatine for Fatigue? New Study Shows Promise
-
-**Quick Summary:** A recent study found a substance from a plant called *Millettia speciosa* helped mice fight off fatigue during exercise. The substance, a type of sugar, seemed to boost energy and reduce signs of tiredness.
-
-### What The Research Found
-
-Researchers looked at a sugar-like substance extracted from a plant. They gave it to mice and then tested their endurance. The mice that received the substance could swim and run for longer before getting tired. The substance also seemed to:
-
-*   **Reduce fatigue markers:** Lowered levels of things in the blood that show tiredness.
-*   **Boost energy stores:** Increased the amount of energy stored in muscles and the liver.
-*   **Fight oxidative stress:** Increased levels of an antioxidant, which helps protect the body.
-
-### Study Details
-
-*   **Who was studied:** Male mice
-*   **How long:** 28 days
-*   **What they took:** The mice were given different doses of the sugar-like substance daily.
-
-### What This Means For You
-
-This study is promising, but it's important to remember it was done on mice. It suggests that this substance might help fight fatigue. However, **more research is needed to see if it works the same way in humans.**
-
-*   **If you're looking for ways to fight fatigue:** Talk to your doctor about proven methods like getting enough sleep, eating a healthy diet, and managing stress.
-*   **This research is in its early stages:** Don't start taking this substance based on this study alone.
-
-### Study Limitations
-
-*   **Only mice were studied:** We don't know if the results would be the same in humans.
-*   **More research is needed:** The study didn't fully explain *how* the substance works.
-*   **No long-term safety data:** The study didn't look at the long-term effects of taking the substance.
+                        <h2>Creatine for Fatigue? New Study Shows Promise</h2>
+<p><strong>Quick Summary:</strong> A recent study found a substance from a plant called <em>Millettia speciosa</em> helped mice fight off fatigue during exercise. The substance, a type of sugar, seemed to boost energy and reduce signs of tiredness.</p>
+<h3>What The Research Found</h3>
+<p>Researchers looked at a sugar-like substance extracted from a plant. They gave it to mice and then tested their endurance. The mice that received the substance could swim and run for longer before getting tired. The substance also seemed to:</p>
+<ul>
+<li><strong>Reduce fatigue markers:</strong> Lowered levels of things in the blood that show tiredness.</li>
+<li><strong>Boost energy stores:</strong> Increased the amount of energy stored in muscles and the liver.</li>
+<li><strong>Fight oxidative stress:</strong> Increased levels of an antioxidant, which helps protect the body.</li>
+</ul>
+<h3>Study Details</h3>
+<ul>
+<li><strong>Who was studied:</strong> Male mice</li>
+<li><strong>How long:</strong> 28 days</li>
+<li><strong>What they took:</strong> The mice were given different doses of the sugar-like substance daily.</li>
+</ul>
+<h3>What This Means For You</h3>
+<p>This study is promising, but it's important to remember it was done on mice. It suggests that this substance might help fight fatigue. However, <strong>more research is needed to see if it works the same way in humans.</strong></p>
+<ul>
+<li><strong>If you're looking for ways to fight fatigue:</strong> Talk to your doctor about proven methods like getting enough sleep, eating a healthy diet, and managing stress.</li>
+<li><strong>This research is in its early stages:</strong> Don't start taking this substance based on this study alone.</li>
+</ul>
+<h3>Study Limitations</h3>
+<ul>
+<li><strong>Only mice were studied:</strong> We don't know if the results would be the same in humans.</li>
+<li><strong>More research is needed:</strong> The study didn't fully explain <em>how</em> the substance works.</li>
+<li><strong>No long-term safety data:</strong> The study didn't look at the long-term effects of taking the substance.</li>
+</ul>
                     </div>
                     
 
@@ -1502,23 +593,18 @@ This study is promising, but it's important to remember it was done on mice. It 
                             </summary>
                             <div class="mt-4 prose max-w-none">
                                 <div class="bg-gray-50 border border-gray-200 rounded-lg p-6">
-                                    ### Key Findings  
-The study identified a polysaccharide-rich fraction from *Millettia speciosa* Champ (MSCP) with significant anti-fatigue properties. MSCP comprised glucose, arabinose, and galactose in a 90.0:5.2:4.8 ratio and exhibited two molecular weight peaks (19,544 and 13,166 Da). In mice, MSCP (400 mg/kg) increased exhaustive swimming time by 58.3% (*p* < 0.01) and running time by 42.1% (*p* < 0.01) versus controls. It significantly reduced fatigue biomarkers: blood urea nitrogen (BUN) by 28.7%, blood lactic acid by 33.5%, lactate dehydrogenase (LDH) by 24.2%, creatine kinase (CK) by 31.8%, and malondialdehyde (MDA) by 26.4% (*p* < 0.01 for all). Concurrently, it elevated muscle glycogen (41.2%), hepatic glycogen (38.6%), and superoxide dismutase (SOD) activity (29.3%) (*p* < 0.01). Gut microbiota modulation (e.g., increased *Lactobacillus*) was observed, suggesting a potential mechanism for anti-fatigue effects.  
-
-### Study Design  
-This was a preclinical *in vivo* study using 40 male Kunming mice (20–22 g) divided into five groups (*n* = 8/group): control, model (fatigue-inducing stress), and three MSCP doses (100, 200, 400 mg/kg). Two fatigue models were employed: exercise-induced (swimming/running tests) and combined stress (swimming + restraint). Mice received daily oral administration for 28 days, followed by fatigue induction and biomarker assessment.  
-
-### Dosage & Administration  
-MSCP was administered via oral gavage at 100, 200, or 400 mg/kg body weight daily for 28 days. The vehicle control group received saline, while the model group underwent fatigue protocols without MSCP. Dosing was based on preliminary toxicity screening.  
-
-### Results & Efficacy  
-MSCP demonstrated dose-dependent efficacy, with 400 mg/kg yielding maximal effects. Swimming time increased from 18.2 ± 1.4 min (control) to 28.8 ± 2.1 min (*p* < 0.01); running time rose from 15.3 ± 1.2 min to 21.7 ± 1.8 min (*p* < 0.01). All biomarker improvements were statistically significant (*p* < 0.01), with effect sizes ranging from 24–42% for reductions in fatigue markers and 29–41% for increases in energy reserves/antioxidants. Gut microbiota shifts correlated with efficacy (*p* < 0.05 for key taxa).  
-
-### Limitations  
-Key limitations include: (1) exclusive use of male mice, ignoring sex-based differences; (2) absence of human data, limiting translational relevance; (3) mechanistic gaps—gut microbiota changes were correlative, not causally proven; (4) single administration route (oral gavage), which may not reflect real-world supplement use; (5) no long-term safety assessment. Future research should validate mechanisms in humans and explore optimal dosing regimens.  
-
-### Clinical Relevance  
-This study provides *preliminary* evidence that MSCP may enhance fatigue resistance by improving energy metabolism and reducing oxidative stress. However, as an animal study, it **does not support direct human supplementation recommendations**. For supplement users, MSCP represents a *theoretical candidate* for functional foods targeting fatigue, but human trials are essential before practical application. Current anti-fatigue strategies should prioritize evidence-based approaches (e.g., balanced nutrition, sleep hygiene), as MSCP’s efficacy and safety in humans remain unverified.
+                                    <h3>Key Findings</h3>
+<p>The study identified a polysaccharide-rich fraction from <em>Millettia speciosa</em> Champ (MSCP) with significant anti-fatigue properties. MSCP comprised glucose, arabinose, and galactose in a 90.0:5.2:4.8 ratio and exhibited two molecular weight peaks (19,544 and 13,166 Da). In mice, MSCP (400 mg/kg) increased exhaustive swimming time by 58.3% (<em>p</em> &lt; 0.01) and running time by 42.1% (<em>p</em> &lt; 0.01) versus controls. It significantly reduced fatigue biomarkers: blood urea nitrogen (BUN) by 28.7%, blood lactic acid by 33.5%, lactate dehydrogenase (LDH) by 24.2%, creatine kinase (CK) by 31.8%, and malondialdehyde (MDA) by 26.4% (<em>p</em> &lt; 0.01 for all). Concurrently, it elevated muscle glycogen (41.2%), hepatic glycogen (38.6%), and superoxide dismutase (SOD) activity (29.3%) (<em>p</em> &lt; 0.01). Gut microbiota modulation (e.g., increased <em>Lactobacillus</em>) was observed, suggesting a potential mechanism for anti-fatigue effects.  </p>
+<h3>Study Design</h3>
+<p>This was a preclinical <em>in vivo</em> study using 40 male Kunming mice (20–22 g) divided into five groups (<em>n</em> = 8/group): control, model (fatigue-inducing stress), and three MSCP doses (100, 200, 400 mg/kg). Two fatigue models were employed: exercise-induced (swimming/running tests) and combined stress (swimming + restraint). Mice received daily oral administration for 28 days, followed by fatigue induction and biomarker assessment.  </p>
+<h3>Dosage &amp; Administration</h3>
+<p>MSCP was administered via oral gavage at 100, 200, or 400 mg/kg body weight daily for 28 days. The vehicle control group received saline, while the model group underwent fatigue protocols without MSCP. Dosing was based on preliminary toxicity screening.  </p>
+<h3>Results &amp; Efficacy</h3>
+<p>MSCP demonstrated dose-dependent efficacy, with 400 mg/kg yielding maximal effects. Swimming time increased from 18.2 ± 1.4 min (control) to 28.8 ± 2.1 min (<em>p</em> &lt; 0.01); running time rose from 15.3 ± 1.2 min to 21.7 ± 1.8 min (<em>p</em> &lt; 0.01). All biomarker improvements were statistically significant (<em>p</em> &lt; 0.01), with effect sizes ranging from 24–42% for reductions in fatigue markers and 29–41% for increases in energy reserves/antioxidants. Gut microbiota shifts correlated with efficacy (<em>p</em> &lt; 0.05 for key taxa).  </p>
+<h3>Limitations</h3>
+<p>Key limitations include: (1) exclusive use of male mice, ignoring sex-based differences; (2) absence of human data, limiting translational relevance; (3) mechanistic gaps—gut microbiota changes were correlative, not causally proven; (4) single administration route (oral gavage), which may not reflect real-world supplement use; (5) no long-term safety assessment. Future research should validate mechanisms in humans and explore optimal dosing regimens.  </p>
+<h3>Clinical Relevance</h3>
+<p>This study provides <em>preliminary</em> evidence that MSCP may enhance fatigue resistance by improving energy metabolism and reducing oxidative stress. However, as an animal study, it <strong>does not support direct human supplementation recommendations</strong>. For supplement users, MSCP represents a <em>theoretical candidate</em> for functional foods targeting fatigue, but human trials are essential before practical application. Current anti-fatigue strategies should prioritize evidence-based approaches (e.g., balanced nutrition, sleep hygiene), as MSCP’s efficacy and safety in humans remain unverified.</p>
                                 </div>
                             </div>
                         </details>
@@ -1550,218 +636,306 @@ This study provides *preliminary* evidence that MSCP may enhance fatigue resista
 
                 </div>
             </article>
-        </div>
 
-        <!-- Sidebar -->
-        <div class="lg:col-span-1 space-y-6">
+    <!-- Related Products Section -->
+    
+    <section class="mt-12">
+        <div class="bg-white rounded-lg shadow-sm border border-gray-200 p-6">
+            <div class="flex items-center mb-6">
+                <svg class="w-6 h-6 text-green-600 mr-3" fill="currentColor" viewBox="0 0 20 20">
+                    <path fill-rule="evenodd" d="M10 2a4 4 0 00-4 4v1H5a1 1 0 00-.994.89l-1 9A1 1 0 004 18h12a1 1 0 00.994-1.11l-1-9A1 1 0 0015 7h-1V6a4 4 0 00-4-4zm2 5V6a2 2 0 10-4 0v1h4zm-6 3a1 1 0 112 0 1 1 0 01-2 0zm7-1a1 1 0 100 2 1 1 0 000-2z" clip-rule="evenodd"/>
+                </svg>
+                <h2 class="text-2xl font-semibold text-gray-900">Related Creatine Products</h2>
+            </div>
             
-            <!-- Study Quick Facts -->
-            <div class="bg-white rounded-lg shadow-sm border border-gray-200 p-6">
-                <h3 class="text-lg font-semibold text-gray-900 mb-4">Study Details</h3>
-                <div class="space-y-3 text-sm">
+            <p class="text-gray-600 mb-6">
+                Based on this research, here are high-quality Creatine supplements from trusted brands with verified customer reviews:
+            </p>
+            
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                
+                <div class="border border-gray-200 rounded-lg p-4 hover:shadow-md transition-shadow bg-gray-50">
                     
-                    <div class="flex justify-between">
-                        <span class="text-gray-500">Type:</span>
-                        <span class="text-gray-900 font-medium">study</span>
+                    <img src="https://m.media-amazon.com/images/I/51B8WCSM1WL._SL500_.jpg" alt="BIKAYALUE Micronized Monohydrate Creatine, 5000mg Per Serving Creatine Capsules Supplement(40 Servings), for Muscle Growth, Increased Strength, Energy Recovery, Gluten Free for Women and Men" class="w-full h-48 object-contain mb-4 rounded bg-white p-2">
+                    
+                    
+                    <h3 class="font-medium text-gray-900 mb-2 line-clamp-2 text-sm">
+                        BIKAYALUE Micronized Monohydrate Creatine, 5000mg Per Servin...
+                    </h3>
+                    
+                    
+                    <p class="text-xs text-gray-500 mb-2 font-medium">BIKAYALUE</p>
+                    
+                    
+                    <div class="flex items-center justify-between mb-3">
+                        
+                        
+                        
+                        <div class="text-sm font-semibold text-gray-900">$99.99</div>
+                        
                     </div>
                     
                     
+                    <a href="https://www.amazon.com/dp/B0F8NFZT2Z/?tag=supplementopedia-20" target="_blank" rel="noopener" class="w-full inline-flex justify-center items-center px-3 py-2 bg-green-600 text-white text-sm font-medium rounded-lg hover:bg-green-700 transition-colors">
+                        <svg class="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M10 2a4 4 0 00-4 4v1H5a1 1 0 00-.994.89l-1 9A1 1 0 004 18h12a1 1 0 00.994-1.11l-1-9A1 1 0 0015 7h-1V6a4 4 0 00-4-4zm2 5V6a2 2 0 10-4 0v1h4zm-6 3a1 1 0 112 0 1 1 0 01-2 0zm7-1a1 1 0 100 2 1 1 0 000-2z" clip-rule="evenodd"/>
+                        </svg>
+                        Buy on Amazon
+                    </a>
+                    
+                </div>
+                
+                <div class="border border-gray-200 rounded-lg p-4 hover:shadow-md transition-shadow bg-gray-50">
+                    
+                    <img src="https://m.media-amazon.com/images/I/41QPtJbvYvL._SL500_.jpg" alt="Life Extension Creatine Capsules – Creatine Monohydrate – Promotes Strength, Lean Muscle, Healthy Endurance – Non-GMO, Gluten-Free – 120 Capsules" class="w-full h-48 object-contain mb-4 rounded bg-white p-2">
                     
                     
+                    <h3 class="font-medium text-gray-900 mb-2 line-clamp-2 text-sm">
+                        Life Extension Creatine Capsules – Creatine Monohydrate – Pr...
+                    </h3>
                     
                     
+                    <p class="text-xs text-gray-500 mb-2 font-medium">Life Extension</p>
                     
                     
-                    
-                    <div class="flex justify-between">
-                        <span class="text-gray-500">PMID:</span>
-                        <span class="text-gray-900 font-medium">40744024</span>
+                    <div class="flex items-center justify-between mb-3">
+                        
+                        
+                        
+                        <div class="text-sm font-semibold text-gray-900">$9.75</div>
+                        
                     </div>
                     
+                    
+                    <a href="https://www.amazon.com/dp/B00BPS3L8E/?tag=supplementopedia-20" target="_blank" rel="noopener" class="w-full inline-flex justify-center items-center px-3 py-2 bg-green-600 text-white text-sm font-medium rounded-lg hover:bg-green-700 transition-colors">
+                        <svg class="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M10 2a4 4 0 00-4 4v1H5a1 1 0 00-.994.89l-1 9A1 1 0 004 18h12a1 1 0 00.994-1.11l-1-9A1 1 0 0015 7h-1V6a4 4 0 00-4-4zm2 5V6a2 2 0 10-4 0v1h4zm-6 3a1 1 0 112 0 1 1 0 01-2 0zm7-1a1 1 0 100 2 1 1 0 000-2z" clip-rule="evenodd"/>
+                        </svg>
+                        Buy on Amazon
+                    </a>
+                    
                 </div>
+                
+                <div class="border border-gray-200 rounded-lg p-4 hover:shadow-md transition-shadow bg-gray-50">
+                    
+                    <img src="https://m.media-amazon.com/images/I/31moa225VhL._SL500_.jpg" alt="THORNE Creatine - Micronized Creatine Monohydrate Powder, Amino Acid Support for Muscles, Cellular Energy &amp; Cognitive Function* - Unflavored - NSF Certified for Sport - 5 g per Serving - 90 Servings" class="w-full h-48 object-contain mb-4 rounded bg-white p-2">
+                    
+                    
+                    <h3 class="font-medium text-gray-900 mb-2 line-clamp-2 text-sm">
+                        THORNE Creatine - Micronized Creatine Monohydrate Powder, Am...
+                    </h3>
+                    
+                    
+                    <p class="text-xs text-gray-500 mb-2 font-medium">THORNE</p>
+                    
+                    
+                    <div class="flex items-center justify-between mb-3">
+                        
+                        
+                        
+                        <div class="text-sm font-semibold text-gray-900">$43.0</div>
+                        
+                    </div>
+                    
+                    
+                    <a href="https://www.amazon.com/dp/B07978VPPH/?tag=supplementopedia-20" target="_blank" rel="noopener" class="w-full inline-flex justify-center items-center px-3 py-2 bg-green-600 text-white text-sm font-medium rounded-lg hover:bg-green-700 transition-colors">
+                        <svg class="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M10 2a4 4 0 00-4 4v1H5a1 1 0 00-.994.89l-1 9A1 1 0 004 18h12a1 1 0 00.994-1.11l-1-9A1 1 0 0015 7h-1V6a4 4 0 00-4-4zm2 5V6a2 2 0 10-4 0v1h4zm-6 3a1 1 0 112 0 1 1 0 01-2 0zm7-1a1 1 0 100 2 1 1 0 000-2z" clip-rule="evenodd"/>
+                        </svg>
+                        Buy on Amazon
+                    </a>
+                    
+                </div>
+                
+                <div class="border border-gray-200 rounded-lg p-4 hover:shadow-md transition-shadow bg-gray-50">
+                    
+                    <img src="https://m.media-amazon.com/images/I/41zp2yKoEcL._SL500_.jpg" alt="BulkSupplements.com Creatine Monohydrate Powder - Micronized Creatine Powder, Unflavored - Pure &amp; Gluten Free, 5g (5000mg) per Servings, 1kg (2.2 lbs) (Pack of 1)" class="w-full h-48 object-contain mb-4 rounded bg-white p-2">
+                    
+                    
+                    <h3 class="font-medium text-gray-900 mb-2 line-clamp-2 text-sm">
+                        BulkSupplements.com Creatine Monohydrate Powder - Micronized...
+                    </h3>
+                    
+                    
+                    <p class="text-xs text-gray-500 mb-2 font-medium">BulkSupplements</p>
+                    
+                    
+                    <div class="flex items-center justify-between mb-3">
+                        
+                        
+                        
+                        <div class="text-sm font-semibold text-gray-900">$26.97</div>
+                        
+                    </div>
+                    
+                    
+                    <a href="https://www.amazon.com/dp/B00E9M4XEE/?tag=supplementopedia-20" target="_blank" rel="noopener" class="w-full inline-flex justify-center items-center px-3 py-2 bg-green-600 text-white text-sm font-medium rounded-lg hover:bg-green-700 transition-colors">
+                        <svg class="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M10 2a4 4 0 00-4 4v1H5a1 1 0 00-.994.89l-1 9A1 1 0 004 18h12a1 1 0 00.994-1.11l-1-9A1 1 0 0015 7h-1V6a4 4 0 00-4-4zm2 5V6a2 2 0 10-4 0v1h4zm-6 3a1 1 0 112 0 1 1 0 01-2 0zm7-1a1 1 0 100 2 1 1 0 000-2z" clip-rule="evenodd"/>
+                        </svg>
+                        Buy on Amazon
+                    </a>
+                    
+                </div>
+                
+                <div class="border border-gray-200 rounded-lg p-4 hover:shadow-md transition-shadow bg-gray-50">
+                    
+                    <img src="https://m.media-amazon.com/images/I/41fyxftCgVL._SL500_.jpg" alt="BulkSupplements.com Creatine Monohydrate Powder - Micronized Creatine Powder, Unflavored - Pure &amp; Gluten Free, 5g (5000mg) per Servings, 500g (1.1 lbs) (Pack of 1)" class="w-full h-48 object-contain mb-4 rounded bg-white p-2">
+                    
+                    
+                    <h3 class="font-medium text-gray-900 mb-2 line-clamp-2 text-sm">
+                        BulkSupplements.com Creatine Monohydrate Powder - Micronized...
+                    </h3>
+                    
+                    
+                    <p class="text-xs text-gray-500 mb-2 font-medium">BulkSupplements</p>
+                    
+                    
+                    <div class="flex items-center justify-between mb-3">
+                        
+                        
+                        
+                        <div class="text-sm font-semibold text-gray-900">$21.97</div>
+                        
+                    </div>
+                    
+                    
+                    <a href="https://www.amazon.com/dp/B00E9M4XFI/?tag=supplementopedia-20" target="_blank" rel="noopener" class="w-full inline-flex justify-center items-center px-3 py-2 bg-green-600 text-white text-sm font-medium rounded-lg hover:bg-green-700 transition-colors">
+                        <svg class="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M10 2a4 4 0 00-4 4v1H5a1 1 0 00-.994.89l-1 9A1 1 0 004 18h12a1 1 0 00.994-1.11l-1-9A1 1 0 0015 7h-1V6a4 4 0 00-4-4zm2 5V6a2 2 0 10-4 0v1h4zm-6 3a1 1 0 112 0 1 1 0 01-2 0zm7-1a1 1 0 100 2 1 1 0 000-2z" clip-rule="evenodd"/>
+                        </svg>
+                        Buy on Amazon
+                    </a>
+                    
+                </div>
+                
+                <div class="border border-gray-200 rounded-lg p-4 hover:shadow-md transition-shadow bg-gray-50">
+                    
+                    <img src="https://m.media-amazon.com/images/I/4140e2K1UpL._SL500_.jpg" alt="Nutricost Micronized Creatine Monohydrate 3,000mg 500 Capsules, 125 Servings, 750mg of Creatine Monohydrate Per Capsule" class="w-full h-48 object-contain mb-4 rounded bg-white p-2">
+                    
+                    
+                    <h3 class="font-medium text-gray-900 mb-2 line-clamp-2 text-sm">
+                        Nutricost Micronized Creatine Monohydrate 3,000mg 500 Capsul...
+                    </h3>
+                    
+                    
+                    <p class="text-xs text-gray-500 mb-2 font-medium">Nutricost</p>
+                    
+                    
+                    <div class="flex items-center justify-between mb-3">
+                        
+                        
+                        
+                        <div class="text-sm font-semibold text-gray-900">$32.95</div>
+                        
+                    </div>
+                    
+                    
+                    <a href="https://www.amazon.com/dp/B01IW245EY/?tag=supplementopedia-20" target="_blank" rel="noopener" class="w-full inline-flex justify-center items-center px-3 py-2 bg-green-600 text-white text-sm font-medium rounded-lg hover:bg-green-700 transition-colors">
+                        <svg class="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M10 2a4 4 0 00-4 4v1H5a1 1 0 00-.994.89l-1 9A1 1 0 004 18h12a1 1 0 00.994-1.11l-1-9A1 1 0 0015 7h-1V6a4 4 0 00-4-4zm2 5V6a2 2 0 10-4 0v1h4zm-6 3a1 1 0 112 0 1 1 0 01-2 0zm7-1a1 1 0 100 2 1 1 0 000-2z" clip-rule="evenodd"/>
+                        </svg>
+                        Buy on Amazon
+                    </a>
+                    
+                </div>
+                
             </div>
-
-            <!-- Related Research -->
             
-            <div class="bg-white rounded-lg shadow-sm border border-gray-200 p-6">
-                <h3 class="text-lg font-semibold text-gray-900 mb-4">Related Creatine Research</h3>
-                <div class="space-y-3">
-                    
-                    <a href="/research//" class="block p-3 rounded-lg border border-gray-200 hover:bg-gray-50 transition-colors">
-                        <div class="font-medium text-gray-900 text-sm line-clamp-2 mb-1"></div>
-                        <div class="text-xs text-gray-500"></div>
-                    </a>
-                    
-                    <a href="/research//" class="block p-3 rounded-lg border border-gray-200 hover:bg-gray-50 transition-colors">
-                        <div class="font-medium text-gray-900 text-sm line-clamp-2 mb-1"></div>
-                        <div class="text-xs text-gray-500"></div>
-                    </a>
-                    
-                    <a href="/research//" class="block p-3 rounded-lg border border-gray-200 hover:bg-gray-50 transition-colors">
-                        <div class="font-medium text-gray-900 text-sm line-clamp-2 mb-1"></div>
-                        <div class="text-xs text-gray-500"></div>
-                    </a>
-                    
-                </div>
-                <div class="mt-4 pt-4 border-t border-gray-200">
-                    <a href="/research/ingredient/creatine/" class="text-blue-600 hover:text-blue-700 text-sm font-medium">
-                        View All Creatine Research →
-                    </a>
-                </div>
-            </div>
-            
-
-            <!-- Medical Disclaimer -->
-            <div class="bg-yellow-50 border border-yellow-200 rounded-lg p-4">
+            <!-- Research-to-Purchase Connection -->
+            <div class="mt-6 p-4 bg-blue-50 border border-blue-200 rounded-lg">
                 <div class="flex">
                     <div class="flex-shrink-0">
-                        <svg class="h-5 w-5 text-yellow-400" viewBox="0 0 20 20" fill="currentColor">
-                            <path fill-rule="evenodd" d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.213 2.98-1.742 2.98H4.42c-1.53 0-2.493-1.646-1.743-2.98l5.58-9.92zM11 13a1 1 0 11-2 0 1 1 0 012 0zm-1-8a1 1 0 00-1 1v3a1 1 0 002 0V6a1 1 0 00-1-1z" clip-rule="evenodd"/>
+                        <svg class="h-5 w-5 text-blue-400" viewBox="0 0 20 20" fill="currentColor">
+                            <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clip-rule="evenodd"/>
                         </svg>
                     </div>
                     <div class="ml-3">
-                        <h3 class="text-sm font-medium text-yellow-800">Medical Disclaimer</h3>
-                        <div class="mt-2 text-sm text-yellow-700">
-                            <p>This research analysis is for informational purposes only and should not be considered medical advice. Consult your healthcare provider before making any supplement decisions.</p>
+                        <h3 class="text-sm font-medium text-blue-800">Research-Based Recommendation</h3>
+                        <div class="mt-2 text-sm text-blue-700">
+                            <p>These products contain Creatine and are selected based on quality, customer reviews, and brand reputation. Consider the dosages and study parameters mentioned in this research when making your selection.</p>
                         </div>
                     </div>
                 </div>
             </div>
+            
+            <!-- Affiliate Disclosure -->
+            <div class="mt-4 text-xs text-gray-500">
+                <p><strong>Disclosure:</strong> We may earn a commission from purchases made through these links, which helps support our research analysis at no extra cost to you. All recommendations are based on product quality and research relevance.</p>
+            </div>
         </div>
-    </div>
-
-    <!-- Related Products Section -->
+    </section>
     
 
+
+        </main>
+        
+        <!-- Right Rail Sidebar Block -->
+        <aside class="right-rail">
+            
+<!-- Ingredient Quick Info -->
+<div class="bg-white rounded-lg shadow-sm border border-gray-200 p-6 mb-6">
+    <h3 class="text-lg font-semibold text-gray-900 mb-4">About Creatine</h3>
+    <div class="space-y-3">
+        <a href="/ingredients/creatine/" 
+           class="flex items-center text-sm text-blue-600 hover:text-blue-700 transition-colors">
+            <svg class="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M10 3a1 1 0 011 1v5h5a1 1 0 110 2h-5v5a1 1 0 11-2 0v-5H4a1 1 0 110-2h5V4a1 1 0 011-1z" clip-rule="evenodd"/>
+            </svg>
+            Complete Creatine Guide
+        </a>
+        <a href="/research/ingredient/creatine/" 
+           class="flex items-center text-sm text-green-600 hover:text-green-700 transition-colors">
+            <svg class="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+            </svg>
+            All Creatine Research
+        </a>
+        <a href="/research/" 
+           class="flex items-center text-sm text-gray-600 hover:text-gray-700 transition-colors">
+            <svg class="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M9.707 16.707a1 1 0 01-1.414 0l-6-6a1 1 0 010-1.414l6-6a1 1 0 011.414 1.414L5.414 9H17a1 1 0 110 2H5.414l4.293 4.293a1 1 0 010 1.414z" clip-rule="evenodd"/>
+            </svg>
+            Browse All Research
+        </a>
+    </div>
 </div>
 
-        </main>
+<!-- Study Details -->
+<div class="bg-white rounded-lg shadow-sm border border-gray-200 p-6 mb-6">
+    <h3 class="text-lg font-semibold text-gray-900 mb-4">Study Details</h3>
+    <div class="space-y-3 text-sm">
         
-        <!-- Right Rail Sidebar Block -->
-        <aside class="right-rail">
-            
-<!-- Research pages don't use the standard right rail - content is in main layout -->
+        <div class="flex justify-between">
+            <span class="text-gray-500">Study Type:</span>
+            <span class="font-medium">study</span>
+        </div>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <div class="pt-3 border-t border-gray-200">
+            <a href="https://pubmed.ncbi.nlm.nih.gov/40744024/" 
+               target="_blank" rel="noopener nofollow"
+               class="flex items-center text-blue-600 hover:text-blue-700">
+                <svg class="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                    <path d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z"/>
+                    <path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z"/>
+                </svg>
+                View on PubMed
+            </a>
+        </div>
+        
+    </div>
+</div>
 
-        </aside>
-    </div>
-    
-    <!-- Footer Block -->
-    
-        <!-- Footer -->
-<footer class="bg-gray-900 text-white mt-16">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
-            <!-- Brand Section -->
-            <div class="md:col-span-1">
-                <h3 class="text-lg font-semibold mb-4">Supplementopedia</h3>
-                <p class="text-gray-300 text-sm mb-4">
-                    Your comprehensive guide to supplements and health optimization with science-based reviews and trusted product recommendations.
-                </p>
-                <p class="text-gray-400 text-xs">
-                    Evidence-based supplement intelligence since 2025.
-                </p>
-            </div>
-            
-            <!-- Explore Section -->
-            <div>
-                <h4 class="font-medium mb-4 text-white">Explore</h4>
-                <div class="space-y-2 text-sm">
-                    <a href="/ingredients/" class="text-gray-300 hover:text-white block transition-colors">Ingredients Database</a>
-                    <a href="/brands/" class="text-gray-300 hover:text-white block transition-colors">Supplement Brands</a>
-                    <a href="/systems/" class="text-gray-300 hover:text-white block transition-colors">Body Systems</a>
-                    <a href="/categories/" class="text-gray-300 hover:text-white block transition-colors">Health Categories</a>
-                </div>
-            </div>
-            
-            <!-- Popular Systems Section -->
-            <div>
-                <h4 class="font-medium mb-4 text-white">Body Systems</h4>
-                <div class="space-y-2 text-sm">
-                    <a href="/systems/nervous-system/" class="text-gray-300 hover:text-white block transition-colors">Nervous System</a>
-                    <a href="/systems/immune-system/" class="text-gray-300 hover:text-white block transition-colors">Immune System</a>
-                    <a href="/systems/cardiovascular-system/" class="text-gray-300 hover:text-white block transition-colors">Cardiovascular System</a>
-                    <a href="/systems/digestive-system/" class="text-gray-300 hover:text-white block transition-colors">Digestive System</a>
-                </div>
-            </div>
-            
-            <!-- Legal Section -->
-            <div>
-                <h4 class="font-medium mb-4 text-white">Legal & Info</h4>
-                <div class="space-y-2 text-sm">
-                    <a href="/disclaimer/" class="text-gray-300 hover:text-white block transition-colors">Medical Disclaimer</a>
-                    <a href="/privacy/" class="text-gray-300 hover:text-white block transition-colors">Privacy Policy</a>
-                    <a href="/terms/" class="text-gray-300 hover:text-white block transition-colors">Terms of Service</a>
-                    <a href="/affiliate-disclosure/" class="text-gray-300 hover:text-white block transition-colors">Affiliate Disclosure</a>
-                </div>
-            </div>
-        </div>
-        
-        <!-- Bottom Footer -->
-        <div class="border-t border-gray-800 mt-8 pt-8">
-            <div class="text-center text-gray-400 text-sm space-y-2">
-                <p>&copy; 2025 Supplementopedia. All rights reserved.</p>
-                
-                <!-- Affiliate Disclosure -->
-                <div class="flex items-center justify-center space-x-1 text-xs">
-                    <svg class="w-4 h-4 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1"></path>
-                    </svg>
-                    <span>This site is funded through affiliate partnerships. We earn commission from qualifying purchases at no cost to you.</span>
-                </div>
-                
-                <!-- Medical Disclaimer -->
-                <div class="flex items-center justify-center space-x-1 text-xs">
-                    <svg class="w-4 h-4 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
-                        <path fill-rule="evenodd" d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.213 2.98-1.742 2.98H4.42c-1.53 0-2.493-1.646-1.743-2.98l5.58-9.92zM11 13a1 1 0 11-2 0 1 1 0 012 0zm-1-8a1 1 0 00-1 1v3a1 1 0 002 0V6a1 1 0 00-1-1z" clip-rule="evenodd"></path>
-                    </svg>
-                    <span><strong>Medical Disclaimer:</strong> Information provided is for educational purposes only. Always consult healthcare professionals before starting supplements.</span>
-                </div>
-                
-                <p class="text-xs mt-4">
-                    All product recommendations are based on research and user reviews. Individual results may vary.
-                </p>
-            </div>
-        </div>
-    </div>
-</footer>
-    
-    
-    <!-- Global JavaScript functions -->
-    <script>
-        // Smooth scroll to where-to-buy section
-        function scrollToWhereToBuy(event) {
-            event.preventDefault();
-            const whereToBuy = document.querySelector('#where-to-buy, [id*="where-to-buy"], .where-to-buy');
-            if (whereToBuy) {
-                whereToBuy.scrollIntoView({ 
-                    behavior: 'smooth',
-                    block: 'start'
-                });
-            } else {
-                // If no where-to-buy section found, scroll to the main content
-                const main = document.querySelector('main');
-                if (main) {
-                    main.scrollIntoView({ 
-                        behavior: 'smooth',
-                        block: 'start'
-                    });
-                }
-            }
-        }
-    </script>
-    
-    <!-- Page specific scripts -->
-    
-    
-</body>
-</html>
-            
-        </main>
-        
-        <!-- Right Rail Sidebar Block -->
-        <aside class="right-rail">
-            
-                <!-- Right Rail Sidebar -->
+<!-- Standard Right Rail Content -->
+<!-- Right Rail Sidebar -->
 <div class="space-y-6">
     
     <!-- Quick Navigation -->
@@ -1811,6 +985,182 @@ This study provides *preliminary* evidence that MSCP may enhance fatigue resista
     <!-- Featured Products -->
     <!-- Featured Products Component for Right Sidebar -->
 
+<div class="bg-white rounded-lg shadow-sm border border-gray-200 p-4 mb-6">
+    <h3 class="text-lg font-semibold text-gray-900 mb-4 flex items-center">
+        <svg class="w-4 h-4 mr-2 text-orange-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.837-.196-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"></path>
+        </svg>
+        Featured Products
+    </h3>
+    
+    <!-- Best Price Product - Find actual lowest price -->
+    
+    
+    
+        
+            
+            
+                
+                
+            
+        
+    
+        
+            
+            
+                
+                
+            
+        
+    
+        
+            
+            
+                
+                
+            
+        
+    
+        
+            
+            
+                
+                
+            
+        
+    
+        
+            
+            
+                
+                
+            
+        
+    
+        
+            
+            
+                
+                
+            
+        
+    
+    
+        
+    
+    
+    <div class="mb-4 pb-4 border-b border-gray-100">
+        <div class="flex items-start space-x-3">
+            <!-- Product Image -->
+            <div class="flex-shrink-0 w-16 h-16 bg-gray-50 rounded-lg overflow-hidden">
+                
+                <img src="https://m.media-amazon.com/images/I/51B8WCSM1WL._SL500_.jpg" 
+                     alt="Product" 
+                     class="w-full h-full object-contain">
+                
+            </div>
+            
+            <!-- Product Info -->
+            <div class="flex-1 min-w-0">
+                <div class="flex items-center mb-1">
+                    <span class="inline-block px-2 py-0.5 bg-green-100 text-green-800 text-xs font-medium rounded-full mr-2">
+                        Best Price
+                    </span>
+                </div>
+                <div class="text-xs font-medium text-blue-600 mb-1"></div>
+                <h4 class="text-sm font-medium text-gray-900 line-clamp-2 mb-1">
+                    
+                </h4>
+                
+                <div class="text-sm font-bold text-gray-900 mb-2">$99.99</div>
+                
+                <a href="https://www.amazon.com/dp/B0F8NFZT2Z/?tag=supplementopedia-20" 
+                   target="_blank" 
+                   rel="nofollow noopener" 
+                   class="inline-flex items-center px-3 py-1.5 bg-orange-600 text-white text-xs font-medium rounded hover:bg-orange-700 transition-colors">
+                    <svg class="w-3 h-3 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 10H4L5 9z"></path>
+                    </svg>
+                    Buy Now
+                </a>
+            </div>
+        </div>
+    </div>
+    
+    
+    <!-- Top Brand Product - Prefer premium brands, fallback to second product -->
+    
+    
+    <!-- First try to find a premium brand product -->
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+    
+    <!-- If no premium brand found, use second product as fallback -->
+    
+        
+            
+        
+    
+    
+    
+    <div class="mb-4">
+        <div class="flex items-start space-x-3">
+            <!-- Product Image -->
+            <div class="flex-shrink-0 w-16 h-16 bg-gray-50 rounded-lg overflow-hidden">
+                
+                <img src="https://m.media-amazon.com/images/I/41QPtJbvYvL._SL500_.jpg" 
+                     alt="Product" 
+                     class="w-full h-full object-contain">
+                
+            </div>
+            
+            <!-- Product Info -->
+            <div class="flex-1 min-w-0">
+                <div class="flex items-center mb-1">
+                    <span class="inline-block px-2 py-0.5 bg-blue-100 text-blue-800 text-xs font-medium rounded-full mr-2">
+                        Top Brand
+                    </span>
+                </div>
+                <div class="text-xs font-medium text-blue-600 mb-1"></div>
+                <h4 class="text-sm font-medium text-gray-900 line-clamp-2 mb-1">
+                    
+                </h4>
+                
+                <div class="text-sm font-bold text-gray-900 mb-2">$9.75</div>
+                
+                <a href="https://www.amazon.com/dp/B00BPS3L8E/?tag=supplementopedia-20" 
+                   target="_blank" 
+                   rel="nofollow noopener" 
+                   class="inline-flex items-center px-3 py-1.5 bg-orange-600 text-white text-xs font-medium rounded hover:bg-orange-700 transition-colors">
+                    <svg class="w-3 h-3 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 10H4L5 9z"></path>
+                    </svg>
+                    Buy Now
+                </a>
+            </div>
+        </div>
+    </div>
+    
+    
+    <!-- View All Products Link -->
+    <div class="text-center pt-2 border-t border-gray-100">
+        <a href="#where-to-buy" class="text-blue-600 hover:text-blue-800 text-xs font-medium" onclick="scrollToWhereToBuy(event)">
+            View All Products ↓
+        </a>
+    </div>
+</div>
+
     
     <!-- Affiliate Disclosure -->
     <div class="bg-blue-50 rounded-lg border border-blue-200 p-4">
@@ -1846,7 +1196,7 @@ This study provides *preliminary* evidence that MSCP may enhance fatigue resista
     </div>
     
 </div>
-            
+
         </aside>
     </div>
     
