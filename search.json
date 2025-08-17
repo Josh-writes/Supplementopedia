@@ -1,10 +1,10 @@
 {
   "meta": {
-    "generated_at": "2025-08-17T21:05:00.406335",
+    "generated_at": "2025-08-17T22:48:09.653991",
     "version": "2.0",
     "description": "Comprehensive search index for Supplementopedia",
-    "total_items": 4219,
-    "content_hash": "a8bfff04c52bad6b63820dd88366d2ee"
+    "total_items": 4218,
+    "content_hash": "5af2823f0a26d08659f4490ff0f1950a"
   },
   "ingredients": [
     {
@@ -899,7 +899,7 @@
         "Balancebreens",
         "BB LAB",
         "Life Extension",
-        "BlueBonnet"
+        "Bluebonnet"
       ],
       "url": "ingredients/bromelain-protease-from-pineapple/",
       "type": "ingredient",
@@ -3845,7 +3845,7 @@
         "SOLARAY",
         "Peak Performance",
         "Standard Process Inc.",
-        "BlueBonnet",
+        "Bluebonnet",
         "FREEDA"
       ],
       "url": "ingredients/manganese/",
@@ -4467,7 +4467,7 @@
         "Designs for Health",
         "Piping Rock",
         "Pure Encapsulations",
-        "BlueBonnet"
+        "Bluebonnet"
       ],
       "url": "ingredients/plant-sterols-phytosterols/",
       "type": "ingredient",
@@ -6287,7 +6287,7 @@
       "dosage_range": null,
       "product_count": 8,
       "related_brands": [
-        "BlueBonnet",
+        "Bluebonnet",
         "Nature's Life",
         "SOLARAY",
         "Herb-Science",
@@ -16434,8 +16434,8 @@
       "image_url": "https://m.media-amazon.com/images/I/315r16VUrlL._SL500_.jpg",
       "amazon_url": "https://www.amazon.com/dp/B000I48QBS/",
       "form": "Supplement",
-      "brand_name": "BlueBonnet",
-      "brand_id": 225,
+      "brand_name": "Bluebonnet",
+      "brand_id": 16,
       "ingredients_list": [
         "Vitamin K1 (Phylloquinone)"
       ],
@@ -18382,8 +18382,8 @@
       "image_url": "https://m.media-amazon.com/images/I/41I6Ba4euiL._SL500_.jpg",
       "amazon_url": "https://www.amazon.com/dp/B00028P0YG/",
       "form": "Supplement",
-      "brand_name": "BlueBonnet",
-      "brand_id": 225,
+      "brand_name": "Bluebonnet",
+      "brand_id": 16,
       "ingredients_list": [
         "Manganese"
       ],
@@ -32542,8 +32542,8 @@
       "image_url": "https://m.media-amazon.com/images/I/41cF9TKWFFL._SL500_.jpg",
       "amazon_url": "https://www.amazon.com/dp/B006H9RTNE/",
       "form": "Capsules",
-      "brand_name": "BlueBonnet",
-      "brand_id": 225,
+      "brand_name": "Bluebonnet",
+      "brand_id": 16,
       "ingredients_list": [
         "Bromelain (Protease from Pineapple)"
       ],
@@ -38268,8 +38268,8 @@
       "image_url": "https://m.media-amazon.com/images/I/41wJshzuZLL._SL500_.jpg",
       "amazon_url": "https://www.amazon.com/dp/B001FXU9IO/",
       "form": "Capsules",
-      "brand_name": "BlueBonnet",
-      "brand_id": 225,
+      "brand_name": "Bluebonnet",
+      "brand_id": 16,
       "ingredients_list": [
         "Plant Sterols (Phytosterols)"
       ],
@@ -39226,8 +39226,8 @@
       "image_url": "https://m.media-amazon.com/images/I/41lk9Oh51HL._SL500_.jpg",
       "amazon_url": "https://www.amazon.com/dp/B000WAOOK0/",
       "form": "Supplement",
-      "brand_name": "BlueBonnet",
-      "brand_id": 225,
+      "brand_name": "Bluebonnet",
+      "brand_id": 16,
       "ingredients_list": [],
       "ingredient_count": 0,
       "url": "products/bluebonnet-cinnulinpf-cinnamon-bark-extract-supplement-60-count-white/",
@@ -76486,6 +76486,37 @@
       "searchable_text": "vitamatic medium brand folic acid,vitamin b9 (folic acid),vitamin a,vitamin b6 (pyridoxine),vitamin d2 (ergocalciferol),vitamin d3 (cholecalciferol),sodium,selenium,l-threonine,taurine,bacillus coagulans,bacillus subtilis,lactobacillus rhamnosus,lactobacillus casei,lactobacillus plantarum,bifidobacterium longum,bifidobacterium breve,streptococcus thermophilus,fenugreek (trigonella foenum-graecum),tryptophan"
     },
     {
+      "id": 16,
+      "name": "Bluebonnet",
+      "website": null,
+      "gmp_status": "Unknown",
+      "product_count": 23,
+      "avg_rating": null,
+      "ingredient_count": 14,
+      "has_research": false,
+      "ingredient_list": [
+        "Vitamin K1 (Phylloquinone)",
+        "Manganese",
+        "Bromelain (Protease from Pineapple)",
+        "Plant Sterols (Phytosterols)",
+        "Vitamin D",
+        "Magnesium",
+        "Calcium",
+        "Magnesium Citrate",
+        "Iron",
+        "Biotin",
+        "Whey Protein",
+        "Prebiotics",
+        "Dha",
+        "Epa"
+      ],
+      "category": "Medium Brand",
+      "url": "brands/bluebonnet/",
+      "type": "brand",
+      "slug": "bluebonnet",
+      "searchable_text": "bluebonnet medium brand vitamin k1 (phylloquinone),manganese,bromelain (protease from pineapple),plant sterols (phytosterols),vitamin d,magnesium,calcium,magnesium citrate,iron,biotin,whey protein,prebiotics,dha,epa"
+    },
+    {
       "id": 113,
       "name": "Bronson",
       "website": null,
@@ -76733,33 +76764,6 @@
       "type": "brand",
       "slug": "bestvite",
       "searchable_text": "bestvite medium brand huperzia serrata,magnesium,choline,berberine,vitamin k,vitamin d,vitamin c,vitamin b12,leucine,l-glutamine,glutamine,l-methionine,calcium,l-lysine,nattokinase"
-    },
-    {
-      "id": 16,
-      "name": "Bluebonnet",
-      "website": null,
-      "gmp_status": "Unknown",
-      "product_count": 18,
-      "avg_rating": null,
-      "ingredient_count": 10,
-      "has_research": false,
-      "ingredient_list": [
-        "Vitamin D",
-        "Magnesium",
-        "Calcium",
-        "Magnesium Citrate",
-        "Iron",
-        "Biotin",
-        "Whey Protein",
-        "Prebiotics",
-        "Dha",
-        "Epa"
-      ],
-      "category": "Medium Brand",
-      "url": "brands/bluebonnet/",
-      "type": "brand",
-      "slug": "bluebonnet",
-      "searchable_text": "bluebonnet medium brand vitamin d,magnesium,calcium,magnesium citrate,iron,biotin,whey protein,prebiotics,dha,epa"
     },
     {
       "id": 355,
@@ -80247,27 +80251,6 @@
       "type": "brand",
       "slug": "betterbody-foods",
       "searchable_text": "betterbody foods small brand soy protein"
-    },
-    {
-      "id": 225,
-      "name": "BlueBonnet",
-      "website": null,
-      "gmp_status": "Unknown",
-      "product_count": 5,
-      "avg_rating": null,
-      "ingredient_count": 4,
-      "has_research": false,
-      "ingredient_list": [
-        "Vitamin K1 (Phylloquinone)",
-        "Manganese",
-        "Bromelain (Protease from Pineapple)",
-        "Plant Sterols (Phytosterols)"
-      ],
-      "category": "Small Brand",
-      "url": "brands/bluebonnet/",
-      "type": "brand",
-      "slug": "bluebonnet",
-      "searchable_text": "bluebonnet small brand vitamin k1 (phylloquinone),manganese,bromelain (protease from pineapple),plant sterols (phytosterols)"
     },
     {
       "id": 189,
@@ -86539,14 +86522,14 @@
     "brands": {
       "Major Brand": 7,
       "Medium Brand": 97,
-      "Small Brand": 393,
+      "Small Brand": 392,
       "New Brand": 1
     }
   },
   "stats": {
     "total_ingredients": 237,
     "total_products": 3484,
-    "total_brands": 498,
+    "total_brands": 497,
     "ingredient_categories": 45,
     "product_forms": 17,
     "brand_categories": 4,

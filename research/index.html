@@ -444,11 +444,11 @@
     <!-- Research Statistics -->
     <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
         <div class="bg-white rounded-lg shadow-sm border border-gray-200 p-6 text-center">
-            <div class="text-3xl font-bold text-blue-600 mb-2">463</div>
+            <div class="text-3xl font-bold text-blue-600 mb-2">435</div>
             <div class="text-sm text-gray-600">Research Studies</div>
         </div>
         <div class="bg-white rounded-lg shadow-sm border border-gray-200 p-6 text-center">
-            <div class="text-3xl font-bold text-green-600 mb-2">125</div>
+            <div class="text-3xl font-bold text-green-600 mb-2">124</div>
             <div class="text-sm text-gray-600">Ingredients Studied</div>
         </div>
         <div class="bg-white rounded-lg shadow-sm border border-gray-200 p-6 text-center">
@@ -474,8 +474,20 @@
                     class="w-full max-w-md px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500">
                 <option value="">Choose an ingredient...</option>
                 
+                <option value="collagen" data-count="8">
+                    Collagen (8 studies)
+                </option>
+                
                 <option value="branched-chain-amino-acids" data-count="6">
                     Branched-Chain Amino Acids (6 studies)
+                </option>
+                
+                <option value="coenzyme-q10" data-count="6">
+                    Coenzyme Q10 (6 studies)
+                </option>
+                
+                <option value="creatine" data-count="6">
+                    Creatine (6 studies)
                 </option>
                 
                 <option value="ecklonia-cava" data-count="6">
@@ -486,32 +498,20 @@
                     Alkylglycerols (6 studies)
                 </option>
                 
-                <option value="apple-cider-vinegar" data-count="6">
-                    Apple Cider Vinegar (6 studies)
+                <option value="caralluma-fimbriata" data-count="6">
+                    Caralluma fimbriata (6 studies)
                 </option>
                 
-                <option value="collagen" data-count="5">
-                    Collagen (5 studies)
-                </option>
-                
-                <option value="creatine" data-count="5">
-                    Creatine (5 studies)
+                <option value="turmeric" data-count="5">
+                    Turmeric (5 studies)
                 </option>
                 
                 <option value="fish-oil" data-count="5">
                     Fish Oil (5 studies)
                 </option>
                 
-                <option value="anserine" data-count="5">
-                    Anserine (5 studies)
-                </option>
-                
                 <option value="schisandra-berry" data-count="5">
                     Schisandra Berry (5 studies)
-                </option>
-                
-                <option value="polygonum-multiflorum" data-count="5">
-                    Polygonum multiflorum (5 studies)
                 </option>
                 
             </select>
@@ -540,9 +540,27 @@
             </h3>
             <div class="space-y-2">
                 
+                <a href="/research/ingredient/collagen/" 
+                   class="flex items-center justify-between p-2 rounded hover:bg-gray-50 transition-colors">
+                    <span class="text-gray-900">Collagen</span>
+                    <span class="text-xs text-gray-500 bg-gray-100 px-2 py-1 rounded-full">8</span>
+                </a>
+                
                 <a href="/research/ingredient/branched-chain-amino-acids/" 
                    class="flex items-center justify-between p-2 rounded hover:bg-gray-50 transition-colors">
                     <span class="text-gray-900">Branched-Chain Amino Acids</span>
+                    <span class="text-xs text-gray-500 bg-gray-100 px-2 py-1 rounded-full">6</span>
+                </a>
+                
+                <a href="/research/ingredient/coenzyme-q10/" 
+                   class="flex items-center justify-between p-2 rounded hover:bg-gray-50 transition-colors">
+                    <span class="text-gray-900">Coenzyme Q10</span>
+                    <span class="text-xs text-gray-500 bg-gray-100 px-2 py-1 rounded-full">6</span>
+                </a>
+                
+                <a href="/research/ingredient/creatine/" 
+                   class="flex items-center justify-between p-2 rounded hover:bg-gray-50 transition-colors">
+                    <span class="text-gray-900">Creatine</span>
                     <span class="text-xs text-gray-500 bg-gray-100 px-2 py-1 rounded-full">6</span>
                 </a>
                 
@@ -556,24 +574,6 @@
                    class="flex items-center justify-between p-2 rounded hover:bg-gray-50 transition-colors">
                     <span class="text-gray-900">Alkylglycerols</span>
                     <span class="text-xs text-gray-500 bg-gray-100 px-2 py-1 rounded-full">6</span>
-                </a>
-                
-                <a href="/research/ingredient/apple-cider-vinegar/" 
-                   class="flex items-center justify-between p-2 rounded hover:bg-gray-50 transition-colors">
-                    <span class="text-gray-900">Apple Cider Vinegar</span>
-                    <span class="text-xs text-gray-500 bg-gray-100 px-2 py-1 rounded-full">6</span>
-                </a>
-                
-                <a href="/research/ingredient/collagen/" 
-                   class="flex items-center justify-between p-2 rounded hover:bg-gray-50 transition-colors">
-                    <span class="text-gray-900">Collagen</span>
-                    <span class="text-xs text-gray-500 bg-gray-100 px-2 py-1 rounded-full">5</span>
-                </a>
-                
-                <a href="/research/ingredient/creatine/" 
-                   class="flex items-center justify-between p-2 rounded hover:bg-gray-50 transition-colors">
-                    <span class="text-gray-900">Creatine</span>
-                    <span class="text-xs text-gray-500 bg-gray-100 px-2 py-1 rounded-full">5</span>
                 </a>
                 
             </div>
@@ -604,28 +604,28 @@
                     <div class="border-l-4 border-blue-200 pl-4">
                         <h4 class="font-medium text-gray-900 text-sm mb-1">
                             <a href="/research/None/" class="hover:text-blue-600">
-                                Apple Cider Vinegar: Does It Boost Your Metabolism?
+                                Creatine Blend Boosts Muscle Strength &amp; Size
                             </a>
                         </h4>
-                        <p class="text-xs text-gray-500">Apple Cider Vinegar</p>
+                        <p class="text-xs text-gray-500">Creatine</p>
                     </div>
                     
                     <div class="border-l-4 border-blue-200 pl-4">
                         <h4 class="font-medium text-gray-900 text-sm mb-1">
                             <a href="/research/None/" class="hover:text-blue-600">
-                                Apple Cider Vinegar Acidic, Not Alkaline for Kidney Stones (2021)
+                                Fat Grafting Boost: Can a Ceramide Help?
                             </a>
                         </h4>
-                        <p class="text-xs text-gray-500">Apple Cider Vinegar</p>
+                        <p class="text-xs text-gray-500">Collagen</p>
                     </div>
                     
                     <div class="border-l-4 border-blue-200 pl-4">
                         <h4 class="font-medium text-gray-900 text-sm mb-1">
                             <a href="/research/None/" class="hover:text-blue-600">
-                                Mangosteen Vinegar Antioxidant Benefits Confirmed - Study Analysis
+                                Collagen Peptides: Good for Joints &amp; More?
                             </a>
                         </h4>
-                        <p class="text-xs text-gray-500">Apple Cider Vinegar</p>
+                        <p class="text-xs text-gray-500">Collagen</p>
                     </div>
                     
                 </div>

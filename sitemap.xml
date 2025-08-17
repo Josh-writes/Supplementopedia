@@ -2360,7 +2360,7 @@
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://supplementopedia.com/brands/ginseng-&-herb-co-op-a-wisconsin-grower-cooperative---usa/</loc>
+        <loc>https://supplementopedia.com/brands/ginseng-&amp;-herb-co-op-a-wisconsin-grower-cooperative---usa/</loc>
         <lastmod>2025-08-17</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
@@ -4298,7 +4298,7 @@
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://supplementopedia.com/brands/wild-&-organic/</loc>
+        <loc>https://supplementopedia.com/brands/wild-&amp;-organic/</loc>
         <lastmod>2025-08-17</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
@@ -4646,6 +4646,12 @@
         <priority>0.6</priority>
     </url>
     <url>
+        <loc>https://supplementopedia.com/research/adhd-supplements-do-they-really-help/</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
         <loc>https://supplementopedia.com/research/adipo-modulation-by-turmeric-bioactive-phenolic-components/</loc>
         <lastmod>2025-08-17</lastmod>
         <changefreq>monthly</changefreq>
@@ -4916,6 +4922,18 @@
         <priority>0.6</priority>
     </url>
     <url>
+        <loc>https://supplementopedia.com/research/b-breve-+-l-casei-combo-reduces-brain-aging-in-mice/</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://supplementopedia.com/research/b-breve-probiotic-may-help-fight-covid-19-new-study/</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
         <loc>https://supplementopedia.com/research/bacillus-coagulans-boosting-herbal-medicine/</loc>
         <lastmod>2025-08-17</lastmod>
         <changefreq>monthly</changefreq>
@@ -4946,7 +4964,19 @@
         <priority>0.6</priority>
     </url>
     <url>
+        <loc>https://supplementopedia.com/research/beet-supplement-for-faster-muscle-recovery/</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
         <loc>https://supplementopedia.com/research/berberine-cancer-promising-study-results/</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://supplementopedia.com/research/berberine-for-gums-new-study-shows-promise/</loc>
         <lastmod>2025-08-17</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
@@ -4976,13 +5006,301 @@
         <priority>0.6</priority>
     </url>
     <url>
+        <loc>https://supplementopedia.com/research/beta-alanine-boosts-longevity-in-aging-study-c-elegans/</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://supplementopedia.com/research/betaine-for-blood-pressure-does-it-help/</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://supplementopedia.com/research/betaine-for-pregnancy-study-shows-promise/</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://supplementopedia.com/research/bifido-longum-gut-health-what-you-need-to-know/</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://supplementopedia.com/research/bifidobacterium-breve-bbr60-good-for-gut-health-metabolism/</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://supplementopedia.com/research/bitter-melon-for-prediabetes-can-it-help/</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://supplementopedia.com/research/bitter-melon-for-weight-loss-what-the-research-says/</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://supplementopedia.com/research/black-cohosh-for-menopause-us-exposure-and-liver-risk/</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://supplementopedia.com/research/black-cohosh-processing-affects-key-compounds-study-analysis/</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://supplementopedia.com/research/black-cohosh-protects-ovarian-follicles-from-steroid-damage/</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
         <loc>https://supplementopedia.com/research/boost-your-brain-health-new-research-on-plasmalogens/</loc>
         <lastmod>2025-08-17</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
+        <loc>https://supplementopedia.com/research/boron-fertility-what-plants-teach-us/</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://supplementopedia.com/research/boron-nano-rotor-insights-drive-oxygen-cluster-discovery-study/</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://supplementopedia.com/research/boswellia-cannabis-for-joint-pain-new-study/</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://supplementopedia.com/research/boswellia-serrata-for-radiation-necrosis-edema-relief/</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://supplementopedia.com/research/bromelain-for-endometriosis-pain-a-case-study/</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://supplementopedia.com/research/bromelain-for-inflammation-does-pineapple-help/</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://supplementopedia.com/research/caffeine-and-hydration-what-the-research-says/</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://supplementopedia.com/research/caffeine-boosts-brainpower-new-study-insights/</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://supplementopedia.com/research/caffeine-exercise-does-it-help-at-high-altitude/</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://supplementopedia.com/research/caffeine-hidden-in-orchid-supplements-what-you-need-to-know/</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://supplementopedia.com/research/caffeine-theacrine-combo-boosts-cognition-in-fatigue-study/</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://supplementopedia.com/research/capsaicin-bioavailability-boosted-by-nano-encapsulation-study/</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://supplementopedia.com/research/capsaicin-for-weight-loss-what-a-new-study-says/</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://supplementopedia.com/research/caralluma-fimbriata-appetite-control-review/</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://supplementopedia.com/research/caralluma-fimbriata-for-anxiety-stress-does-it-work/</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://supplementopedia.com/research/caralluma-fimbriata-for-appetite-control-a-case-study/</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://supplementopedia.com/research/caralluma-fimbriata-for-weight-loss-does-it-work/</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://supplementopedia.com/research/caralluma-fimbriata-reduces-appetite-study-analysis/</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://supplementopedia.com/research/cascade-hops-micropropagation-success-95-survival-rate/</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://supplementopedia.com/research/casein-protein-for-muscle-recovery-what-you-need-to-know/</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://supplementopedia.com/research/casein-protein-supplements-are-they-what-they-say/</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://supplementopedia.com/research/cayenne-pepper-pre-workout-does-it-boost-your-workout/</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://supplementopedia.com/research/chaga-mushroom-fermentation-boosts-benefits/</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://supplementopedia.com/research/chaga-mushroom-new-extraction-boosts-benefits/</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://supplementopedia.com/research/chamomile-for-weight-loss-metabolic-health/</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://supplementopedia.com/research/chamomiles-secret-unlocking-its-aroma-benefits/</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
         <loc>https://supplementopedia.com/research/chemical-profiling-and-immune-stimulating-activity-of/</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://supplementopedia.com/research/chia-oil-boosts-cla-production-in-rumen-study/</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://supplementopedia.com/research/chia-seeds-boost-probiotic-survival-new-study/</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://supplementopedia.com/research/choline-for-brain-health-does-it-boost-kids-smarts/</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://supplementopedia.com/research/chondroitin-for-joint-pain-what-the-research-says/</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://supplementopedia.com/research/chondroitin-for-knee-pain-does-it-really-help/</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://supplementopedia.com/research/chromium-alzheimers-whats-the-link/</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://supplementopedia.com/research/chromium-cobalt-are-they-safe-research-findings/</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://supplementopedia.com/research/chromium-for-pcos-does-it-really-help/</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://supplementopedia.com/research/chromium-in-fruit-juice-does-it-matter/</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://supplementopedia.com/research/chromium-nanoparticles-for-bone-health-new-study/</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://supplementopedia.com/research/chromium-picolinate-combo-improves-metabolic-syndrome/</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://supplementopedia.com/research/chromium-picolinate-for-type-2-diabetes-review-analysis/</loc>
         <lastmod>2025-08-17</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
@@ -5012,6 +5330,48 @@
         <priority>0.6</priority>
     </url>
     <url>
+        <loc>https://supplementopedia.com/research/citicoline-bupropion-for-nerve-pain-what-the-research-says/</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://supplementopedia.com/research/citicoline-for-dementia-does-it-really-help/</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://supplementopedia.com/research/citicoline-for-memory-does-it-help-mild-cognitive-impairment/</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://supplementopedia.com/research/citicoline-for-nerve-damage-does-it-help/</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://supplementopedia.com/research/citicoline-slows-glaucoma-progression-review-evidence/</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://supplementopedia.com/research/cla-enhances-camel-milk-production-cla-levels-study/</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://supplementopedia.com/research/cla-supplements-anemia-what-you-need-to-know/</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
         <loc>https://supplementopedia.com/research/clostridium-leptum-supernatant-fights-breast-cancer-cells/</loc>
         <lastmod>2025-08-17</lastmod>
         <changefreq>monthly</changefreq>
@@ -5030,6 +5390,48 @@
         <priority>0.6</priority>
     </url>
     <url>
+        <loc>https://supplementopedia.com/research/collagen-peptides-exercise-do-they-help-you-eat-less/</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://supplementopedia.com/research/collagen-peptides-good-for-joints-more/</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://supplementopedia.com/research/coq10-egg-health-new-study-insights/</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://supplementopedia.com/research/coq10-for-athletes-boost-recovery-reduce-muscle-soreness/</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://supplementopedia.com/research/coq10-may-help-slow-kidney-disease-progression/</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://supplementopedia.com/research/cordyceps-anti-breast-cancer-effects-research-review-analysis/</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://supplementopedia.com/research/cordyceps-coffee-boost-your-workout-new-study-says-yes!/</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
         <loc>https://supplementopedia.com/research/cordyceps-high-altitude-boosts-antioxidants/</loc>
         <lastmod>2025-08-17</lastmod>
         <changefreq>monthly</changefreq>
@@ -5037,6 +5439,18 @@
     </url>
     <url>
         <loc>https://supplementopedia.com/research/cordyceps-militaris-can-it-be-made-more-sustainable/</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://supplementopedia.com/research/cordyceps-mushroom-boost-new-way-to-grow-more!/</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://supplementopedia.com/research/creatine-blend-boosts-muscle-strength-size/</loc>
         <lastmod>2025-08-17</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
@@ -5061,6 +5475,36 @@
     </url>
     <url>
         <loc>https://supplementopedia.com/research/curcumin-supplementation-improves-the-clinical-outcomes-of/</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://supplementopedia.com/research/dandelion-liver-supplements-do-they-really-work/</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://supplementopedia.com/research/dandelion-root-can-it-boost-your-immunity/</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://supplementopedia.com/research/dandelion-root-can-it-protect-you-from-food-additives/</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://supplementopedia.com/research/dandelion-root-does-it-fight-bugs-boost-gut-health/</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://supplementopedia.com/research/dci-treatment-causes-unexpected-hormonal-effects-in-obese-women/</loc>
         <lastmod>2025-08-17</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
@@ -5091,6 +5535,84 @@
     </url>
     <url>
         <loc>https://supplementopedia.com/research/dha-brain-health-can-supplements-help/</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://supplementopedia.com/research/dhea-boost-in-postmenopause-lowers-biological-age-study/</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://supplementopedia.com/research/dhea-may-improve-fertility-in-pcos-study-analysis/</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://supplementopedia.com/research/dhea-study-does-dhea-help-or-hurt-adrenal-health/</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://supplementopedia.com/research/diabetes-care-seeking-hops-in-mumbai-slums-ncd-study/</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://supplementopedia.com/research/dim-enhances-benzo-a-pyrene-metabolism-in-humans/</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://supplementopedia.com/research/dim-for-health-what-does-the-science-say/</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://supplementopedia.com/research/dim-for-women-does-it-balance-estrogen/</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://supplementopedia.com/research/dim-for-women-does-it-help-with-weight-loss/</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://supplementopedia.com/research/dim-shifts-estrogen-metabolism-without-affecting-estradiol/</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://supplementopedia.com/research/dmae-for-brain-health-what-the-old-research-says/</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://supplementopedia.com/research/dmae-for-lucid-dreams-does-it-really-work/</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://supplementopedia.com/research/dmae-reduces-fibroblast-viability-anti-aging-implications/</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://supplementopedia.com/research/does-cayenne-pepper-boost-muscle-study-results/</loc>
         <lastmod>2025-08-17</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
@@ -5174,6 +5696,12 @@
         <priority>0.6</priority>
     </url>
     <url>
+        <loc>https://supplementopedia.com/research/eleuthero-for-lyme-symptoms-review-analysis-lacks-evidence/</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
         <loc>https://supplementopedia.com/research/ergothioneine-for-parkinsons-could-it-help/</loc>
         <lastmod>2025-08-17</lastmod>
         <changefreq>monthly</changefreq>
@@ -5192,6 +5720,12 @@
         <priority>0.6</priority>
     </url>
     <url>
+        <loc>https://supplementopedia.com/research/fat-grafting-boost-can-a-ceramide-help/</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
         <loc>https://supplementopedia.com/research/fish-oil-pregnancy-what-the-research-says/</loc>
         <lastmod>2025-08-17</lastmod>
         <changefreq>monthly</changefreq>
@@ -5199,6 +5733,24 @@
     </url>
     <url>
         <loc>https://supplementopedia.com/research/fish-oil-probiotics-boost-breast-milk-immunity-factors/</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://supplementopedia.com/research/flaxseed-lowers-androgens-in-pcos-clinical-trial/</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://supplementopedia.com/research/flaxseed-oil-for-lions-immune-hormone-study/</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://supplementopedia.com/research/flaxseed-oil-for-omega-3s-does-it-really-work/</loc>
         <lastmod>2025-08-17</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
@@ -5246,7 +5798,49 @@
         <priority>0.6</priority>
     </url>
     <url>
+        <loc>https://supplementopedia.com/research/gaba-menopause-can-it-ease-symptoms/</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
         <loc>https://supplementopedia.com/research/gallic-acid-and-vitamin-c-mitigate-histopathological/</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://supplementopedia.com/research/garcinia-cambogia-for-weight-loss-is-it-safe/</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://supplementopedia.com/research/garcinia-cambogia-hca-supplements-are-they-safe/</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://supplementopedia.com/research/garcinia-cambogia-mental-health-what-you-need-to-know/</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://supplementopedia.com/research/garcinia-cambogia-supplements-are-they-safe-effective/</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://supplementopedia.com/research/garlic-for-high-blood-pressure-does-it-really-work/</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://supplementopedia.com/research/garlic-for-mens-health-study-shows-promise/</loc>
         <lastmod>2025-08-17</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
@@ -5270,6 +5864,66 @@
         <priority>0.6</priority>
     </url>
     <url>
+        <loc>https://supplementopedia.com/research/ginkgo-biloba-for-alzheimers-new-study-shows-promise/</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://supplementopedia.com/research/ginkgo-biloba-for-anti-aging-does-it-work/</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://supplementopedia.com/research/ginkgo-biloba-for-liver-health-does-it-help/</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://supplementopedia.com/research/ginkgo-biloba-for-tinnitus-does-it-work/</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://supplementopedia.com/research/glucosamine-for-joint-pain-what-the-research-says/</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://supplementopedia.com/research/glucosamine-may-lower-sepsis-risk-study-finds/</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://supplementopedia.com/research/glycine-for-fish-boosting-growth-immunity-in-pompano/</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://supplementopedia.com/research/gotu-kola-breast-cancer-promising-research/</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://supplementopedia.com/research/gotu-kola-for-ulcers-can-it-help-heal-wounds/</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://supplementopedia.com/research/gotu-kola-for-wound-healing-after-skin-cancer-surgery/</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
         <loc>https://supplementopedia.com/research/greywater-treatment-using-constructed-wetlands-modified/</loc>
         <lastmod>2025-08-17</lastmod>
         <changefreq>monthly</changefreq>
@@ -5277,6 +5931,30 @@
     </url>
     <url>
         <loc>https://supplementopedia.com/research/growth-phase-diets-diminish-histone-acetyltransferase-gcn5/</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://supplementopedia.com/research/gymnema-sylvestre-for-blood-sugar-cholesterol/</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://supplementopedia.com/research/gymnema-sylvestre-for-blood-sugar-what-the-research-says/</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://supplementopedia.com/research/gymnema-sylvestre-for-diabetes-does-it-really-work/</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://supplementopedia.com/research/gymnema-sylvestre-liver-problems-what-you-need-to-know/</loc>
         <lastmod>2025-08-17</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
@@ -5300,6 +5978,30 @@
         <priority>0.6</priority>
     </url>
     <url>
+        <loc>https://supplementopedia.com/research/hawthorn-berry-for-anxiety-depression-study-says/</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://supplementopedia.com/research/hawthorn-berry-honey-heart-health-boost/</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://supplementopedia.com/research/hawthorn-berry-leaf-flower-powders-high-in-bioactivity/</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://supplementopedia.com/research/hca-aids-weight-loss-in-nafld-women-clinical-trial/</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
         <loc>https://supplementopedia.com/research/he-shou-wu-polygonum-multiflorum-liver-health-what-you-need-to-know/</loc>
         <lastmod>2025-08-17</lastmod>
         <changefreq>monthly</changefreq>
@@ -5307,6 +6009,54 @@
     </url>
     <url>
         <loc>https://supplementopedia.com/research/herbal-medicines-show-promise-for-ulcerative-colitis-relief/</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://supplementopedia.com/research/hmb-for-muscle-can-it-fight-loss-from-inactivity/</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://supplementopedia.com/research/hmb-for-muscle-health-what-the-experts-say/</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://supplementopedia.com/research/hmb-for-weight-loss-surgery-does-it-help-muscle/</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://supplementopedia.com/research/holy-basil-tulsi-supplements-are-they-safe-properly-labeled/</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://supplementopedia.com/research/hops-for-gut-health-how-xanthohumol-might-help/</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://supplementopedia.com/research/hops-hormones-what-happens-in-your-body/</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://supplementopedia.com/research/hops-safe-in-cosmetics-per-2024-safety-review/</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://supplementopedia.com/research/horny-goat-weed-for-ed-does-it-really-work/</loc>
         <lastmod>2025-08-17</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
@@ -5342,6 +6092,12 @@
         <priority>0.6</priority>
     </url>
     <url>
+        <loc>https://supplementopedia.com/research/inositol-vitamin-b8-for-schizophrenia-does-it-help/</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
         <loc>https://supplementopedia.com/research/insights-into-targeted-ferroptosis-in-mechanisms-biology/</loc>
         <lastmod>2025-08-17</lastmod>
         <changefreq>monthly</changefreq>
@@ -5354,7 +6110,43 @@
         <priority>0.6</priority>
     </url>
     <url>
+        <loc>https://supplementopedia.com/research/iodine-for-breastfeeding-moms-why-it-matters/</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://supplementopedia.com/research/iodine-hypothyroidism-what-you-need-to-know/</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
         <loc>https://supplementopedia.com/research/iron-fortified-cereal-a-cost-effective-way-to-fight-anemia/</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://supplementopedia.com/research/is-your-salt-giving-you-enough-iodine/</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://supplementopedia.com/research/kava-for-anxiety-does-it-really-work/</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://supplementopedia.com/research/kava-withdrawal-can-it-be-severe/</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://supplementopedia.com/research/keto-diet-brain-cancer-a-case-study/</loc>
         <lastmod>2025-08-17</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
@@ -5366,7 +6158,19 @@
         <priority>0.6</priority>
     </url>
     <url>
+        <loc>https://supplementopedia.com/research/licorice-compound-shows-breast-cancer-prevention-potential/</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
         <loc>https://supplementopedia.com/research/light-intensity-and-photoperiod-interact-to-alter-the/</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://supplementopedia.com/research/light-ratios-boost-black-cohosh-growth-plant-study/</loc>
         <lastmod>2025-08-17</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
@@ -5391,6 +6195,12 @@
     </url>
     <url>
         <loc>https://supplementopedia.com/research/mangosteen-vinegar-antioxidant-benefits-confirmed-study-analysis/</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://supplementopedia.com/research/marjoram-for-pcos-can-it-help-study-insights/</loc>
         <lastmod>2025-08-17</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
@@ -5426,7 +6236,19 @@
         <priority>0.6</priority>
     </url>
     <url>
+        <loc>https://supplementopedia.com/research/microalgae-extract-boosts-brain-dha-uptake-study/</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
         <loc>https://supplementopedia.com/research/microbial-production-of-creatine-using-growth-coupled/</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://supplementopedia.com/research/modified-sijunzi-granule-for-rabbit-diarrhea-what-you-should-know/</loc>
         <lastmod>2025-08-17</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
@@ -5468,6 +6290,18 @@
         <priority>0.6</priority>
     </url>
     <url>
+        <loc>https://supplementopedia.com/research/new-eczema-treatment-guidelines-what-you-need-to-know/</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://supplementopedia.com/research/new-way-to-make-inositol-vitamin-b8-from-starch/</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
         <loc>https://supplementopedia.com/research/nutritional-supplements-for-eczema-relief-review-analysis/</loc>
         <lastmod>2025-08-17</lastmod>
         <changefreq>monthly</changefreq>
@@ -5486,6 +6320,12 @@
         <priority>0.6</priority>
     </url>
     <url>
+        <loc>https://supplementopedia.com/research/pantothenate-regulates-mosquito-feeding-reproduction-malaria-study/</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
         <loc>https://supplementopedia.com/research/phyllanthus-niruri-can-it-boost-your-immunity/</loc>
         <lastmod>2025-08-17</lastmod>
         <changefreq>monthly</changefreq>
@@ -5499,6 +6339,12 @@
     </url>
     <url>
         <loc>https://supplementopedia.com/research/phytohormone-augmented-microalgae-a-dual-functional/</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://supplementopedia.com/research/pineapple-enzyme-fights-covid-19-in-lab-study/</loc>
         <lastmod>2025-08-17</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
@@ -5552,6 +6398,12 @@
         <priority>0.6</priority>
     </url>
     <url>
+        <loc>https://supplementopedia.com/research/procyanidin-boosts-turkey-sperm-quality-in-cryopreservation/</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
         <loc>https://supplementopedia.com/research/protein-fortifiers-on-physicochemical-and-sensory/</loc>
         <lastmod>2025-08-17</lastmod>
         <changefreq>monthly</changefreq>
@@ -5600,12 +6452,6 @@
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://supplementopedia.com/research/seo-research-summary/</loc>
-        <lastmod>2025-08-17</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.6</priority>
-    </url>
-    <url>
         <loc>https://supplementopedia.com/research/serrapeptase-does-it-really-help-with-pain-swelling/</loc>
         <lastmod>2025-08-17</lastmod>
         <changefreq>monthly</changefreq>
@@ -5649,6 +6495,18 @@
     </url>
     <url>
         <loc>https://supplementopedia.com/research/shilajit-for-male-fertility-what-the-research-says/</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://supplementopedia.com/research/silver-resistant-bacteria-what-you-need-to-know/</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://supplementopedia.com/research/soil-boron-selenium-probiotics-longevity-what-the-research-says/</loc>
         <lastmod>2025-08-17</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
@@ -5732,13 +6590,55 @@
         <priority>0.6</priority>
     </url>
     <url>
+        <loc>https://supplementopedia.com/research/tmao-boosts-egg-quality-in-pcos-mice-study-analysis/</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
         <loc>https://supplementopedia.com/research/tmao-boosts-mouse-exercise-endurance-study-analysis/</loc>
         <lastmod>2025-08-17</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
+        <loc>https://supplementopedia.com/research/turmeric-for-endurance-study-shows-promise/</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://supplementopedia.com/research/turmeric-for-joint-pain-does-it-really-work/</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://supplementopedia.com/research/turmeric-for-kidney-health-can-it-help-with-proteinuria/</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://supplementopedia.com/research/turmeric-kidney-health-does-it-help/</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://supplementopedia.com/research/turmeric-reduces-exercise-oxidative-stress-2023-study/</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
         <loc>https://supplementopedia.com/research/using-probiotic-supplementation-to-support-bone-health-in/</loc>
+        <lastmod>2025-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://supplementopedia.com/research/vigeo-blend-fights-muscle-atrophy-2024-study/</loc>
         <lastmod>2025-08-17</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
