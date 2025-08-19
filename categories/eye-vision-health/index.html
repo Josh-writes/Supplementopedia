@@ -673,7 +673,7 @@ document.addEventListener('DOMContentLoaded', function() {
         <!-- Category Stats -->
         <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
             <div class="text-center p-4 bg-blue-50 rounded-lg">
-                <div class="text-2xl font-bold text-blue-600">8</div>
+                <div class="text-2xl font-bold text-blue-600">11</div>
                 <div class="text-sm text-gray-600">Relevant Ingredients</div>
             </div>
             <div class="text-center p-4 bg-green-50 rounded-lg">
@@ -703,6 +703,36 @@ document.addEventListener('DOMContentLoaded', function() {
                     <span class="text-xs text-gray-500">16 products available</span>
                     
                     <a href="/ingredients/astaxanthin/" class="text-blue-600 hover:text-blue-800 text-sm font-medium">
+                        Learn More →
+                    </a>
+                </div>
+            </div>
+            
+            <div class="border rounded-lg p-4 hover:shadow-md transition-shadow">
+                <h3 class="text-lg font-semibold text-gray-900 mb-2">
+                    <a href="/ingredients/caffeine/" class="hover:text-blue-600">Caffeine</a>
+                </h3>
+                <p class="text-gray-600 text-sm mb-3"> - Essential ingredient for eye &amp; vision health</p>
+                <div class="flex items-center justify-between">
+                    
+                    <span class="text-xs text-gray-500">1 products available</span>
+                    
+                    <a href="/ingredients/caffeine/" class="text-blue-600 hover:text-blue-800 text-sm font-medium">
+                        Learn More →
+                    </a>
+                </div>
+            </div>
+            
+            <div class="border rounded-lg p-4 hover:shadow-md transition-shadow">
+                <h3 class="text-lg font-semibold text-gray-900 mb-2">
+                    <a href="/ingredients/coenzyme-q10/" class="hover:text-blue-600">Coenzyme Q10</a>
+                </h3>
+                <p class="text-gray-600 text-sm mb-3"> - Essential ingredient for eye &amp; vision health</p>
+                <div class="flex items-center justify-between">
+                    
+                    <span class="text-xs text-gray-500">1 products available</span>
+                    
+                    <a href="/ingredients/coenzyme-q10/" class="text-blue-600 hover:text-blue-800 text-sm font-medium">
                         Learn More →
                     </a>
                 </div>
@@ -745,9 +775,24 @@ document.addEventListener('DOMContentLoaded', function() {
                 <p class="text-gray-600 text-sm mb-3"> - Essential ingredient for eye &amp; vision health</p>
                 <div class="flex items-center justify-between">
                     
-                    <span class="text-xs text-gray-500">8 products available</span>
+                    <span class="text-xs text-gray-500">7 products available</span>
                     
                     <a href="/ingredients/maca-root-lepidium-meyenii/" class="text-blue-600 hover:text-blue-800 text-sm font-medium">
+                        Learn More →
+                    </a>
+                </div>
+            </div>
+            
+            <div class="border rounded-lg p-4 hover:shadow-md transition-shadow">
+                <h3 class="text-lg font-semibold text-gray-900 mb-2">
+                    <a href="/ingredients/omega-3-fatty-acids/" class="hover:text-blue-600">Omega-3 Fatty Acids</a>
+                </h3>
+                <p class="text-gray-600 text-sm mb-3"> - Essential ingredient for eye &amp; vision health</p>
+                <div class="flex items-center justify-between">
+                    
+                    <span class="text-xs text-gray-500">3 products available</span>
+                    
+                    <a href="/ingredients/omega-3-fatty-acids/" class="text-blue-600 hover:text-blue-800 text-sm font-medium">
                         Learn More →
                     </a>
                 </div>
@@ -768,53 +813,98 @@ document.addEventListener('DOMContentLoaded', function() {
                 </div>
             </div>
             
-            <div class="border rounded-lg p-4 hover:shadow-md transition-shadow">
-                <h3 class="text-lg font-semibold text-gray-900 mb-2">
-                    <a href="/ingredients/vitamin-a/" class="hover:text-blue-600">Vitamin A</a>
-                </h3>
-                <p class="text-gray-600 text-sm mb-3"> - Essential ingredient for eye &amp; vision health</p>
-                <div class="flex items-center justify-between">
-                    
-                    <span class="text-xs text-gray-500">19 products available</span>
-                    
-                    <a href="/ingredients/vitamin-a/" class="text-blue-600 hover:text-blue-800 text-sm font-medium">
-                        Learn More →
-                    </a>
-                </div>
-            </div>
-            
-            <div class="border rounded-lg p-4 hover:shadow-md transition-shadow">
-                <h3 class="text-lg font-semibold text-gray-900 mb-2">
-                    <a href="/ingredients/vitamin-c/" class="hover:text-blue-600">Vitamin C</a>
-                </h3>
-                <p class="text-gray-600 text-sm mb-3"> - Essential ingredient for eye &amp; vision health</p>
-                <div class="flex items-center justify-between">
-                    
-                    <span class="text-xs text-gray-500">2 products available</span>
-                    
-                    <a href="/ingredients/vitamin-c/" class="text-blue-600 hover:text-blue-800 text-sm font-medium">
-                        Learn More →
-                    </a>
-                </div>
-            </div>
-            
-            <div class="border rounded-lg p-4 hover:shadow-md transition-shadow">
-                <h3 class="text-lg font-semibold text-gray-900 mb-2">
-                    <a href="/ingredients/zinc/" class="hover:text-blue-600">Zinc</a>
-                </h3>
-                <p class="text-gray-600 text-sm mb-3"> - Essential ingredient for eye &amp; vision health</p>
-                <div class="flex items-center justify-between">
-                    
-                    <span class="text-xs text-gray-500">3 products available</span>
-                    
-                    <a href="/ingredients/zinc/" class="text-blue-600 hover:text-blue-800 text-sm font-medium">
-                        Learn More →
-                    </a>
-                </div>
-            </div>
-            
         </div>
         
+        
+        <div class="text-center mt-6">
+            <button id="toggle-all-ingredients" class="inline-block bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition-colors">
+                View All 11 Ingredients
+            </button>
+        </div>
+        
+        <!-- Hidden expandable section for all ingredients -->
+        <div id="all-ingredients" class="hidden mt-6">
+            <h3 class="text-xl font-semibold mb-4">All 11 Ingredients for Eye &amp; Vision Health</h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                
+                <div class="border rounded-lg p-4 hover:shadow-md transition-shadow">
+                    <h4 class="text-lg font-semibold text-gray-900 mb-2">
+                        <a href="/ingredients/vitamin-a/" class="hover:text-blue-600">Vitamin A</a>
+                    </h4>
+                    <p class="text-gray-600 text-sm mb-3"> - Essential ingredient for eye &amp; vision health</p>
+                    <div class="flex items-center justify-between">
+                        
+                        <span class="text-xs text-gray-500">17 products available</span>
+                        
+                        <a href="/ingredients/vitamin-a/" class="text-blue-600 hover:text-blue-800 text-sm font-medium">
+                            Learn More →
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="border rounded-lg p-4 hover:shadow-md transition-shadow">
+                    <h4 class="text-lg font-semibold text-gray-900 mb-2">
+                        <a href="/ingredients/vitamin-c/" class="hover:text-blue-600">Vitamin C</a>
+                    </h4>
+                    <p class="text-gray-600 text-sm mb-3"> - Essential ingredient for eye &amp; vision health</p>
+                    <div class="flex items-center justify-between">
+                        
+                        <span class="text-xs text-gray-500">2 products available</span>
+                        
+                        <a href="/ingredients/vitamin-c/" class="text-blue-600 hover:text-blue-800 text-sm font-medium">
+                            Learn More →
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="border rounded-lg p-4 hover:shadow-md transition-shadow">
+                    <h4 class="text-lg font-semibold text-gray-900 mb-2">
+                        <a href="/ingredients/zinc/" class="hover:text-blue-600">Zinc</a>
+                    </h4>
+                    <p class="text-gray-600 text-sm mb-3"> - Essential ingredient for eye &amp; vision health</p>
+                    <div class="flex items-center justify-between">
+                        
+                        <span class="text-xs text-gray-500">3 products available</span>
+                        
+                        <a href="/ingredients/zinc/" class="text-blue-600 hover:text-blue-800 text-sm font-medium">
+                            Learn More →
+                        </a>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="text-center mt-6">
+                <button id="hide-all-ingredients" class="inline-block bg-gray-600 text-white px-6 py-2 rounded-lg hover:bg-gray-700 transition-colors">
+                    Hide Additional Ingredients
+                </button>
+            </div>
+        </div>
+        
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                const toggleButton = document.getElementById('toggle-all-ingredients');
+                const hideButton = document.getElementById('hide-all-ingredients');
+                const allIngredientsSection = document.getElementById('all-ingredients');
+                
+                if (toggleButton && allIngredientsSection) {
+                    toggleButton.addEventListener('click', function() {
+                        allIngredientsSection.classList.remove('hidden');
+                        toggleButton.style.display = 'none';
+                        // Scroll to the expanded section
+                        allIngredientsSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                    });
+                }
+                
+                if (hideButton && allIngredientsSection) {
+                    hideButton.addEventListener('click', function() {
+                        allIngredientsSection.classList.add('hidden');
+                        toggleButton.style.display = 'inline-block';
+                        // Scroll back to the toggle button
+                        toggleButton.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                    });
+                }
+            });
+        </script>
         
     </div>
     
