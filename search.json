@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2025-08-20T04:49:46.483572",
+    "generated_at": "2025-08-21T19:52:22.701134",
     "version": "2.0",
     "description": "Comprehensive search index for Supplementopedia",
     "total_items": 733,
@@ -6953,7 +6953,7 @@
       "product_count": 54,
       "avg_rating": null,
       "ingredient_count": 29,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Vitamin C",
         "Folic Acid",
@@ -7333,7 +7333,7 @@
       "product_count": 28,
       "avg_rating": null,
       "ingredient_count": 23,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Probiotics",
         "Vitamin Code",
@@ -7402,7 +7402,7 @@
       "product_count": 23,
       "avg_rating": null,
       "ingredient_count": 24,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Vitamin K",
         "Manganese",
@@ -7541,7 +7541,7 @@
       "product_count": 20,
       "avg_rating": null,
       "ingredient_count": 9,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Folic Acid",
         "Vitamin C",
@@ -7597,7 +7597,7 @@
       "product_count": 19,
       "avg_rating": null,
       "ingredient_count": 8,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Calcium",
         "Iron",
@@ -7621,7 +7621,7 @@
       "product_count": 18,
       "avg_rating": null,
       "ingredient_count": 8,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Rhaponticum carthamoides (Maral Root)",
         "Astaxanthin",
@@ -7645,7 +7645,7 @@
       "product_count": 18,
       "avg_rating": null,
       "ingredient_count": 17,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Huperzia serrata",
         "Magnesium",
@@ -7679,7 +7679,7 @@
       "product_count": 18,
       "avg_rating": null,
       "ingredient_count": 15,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Omega-3 Fatty Acids",
         "Zinc",
@@ -7708,7 +7708,7 @@
       "product_count": 18,
       "avg_rating": null,
       "ingredient_count": 17,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Vitamin D",
         "Calcium",
@@ -7741,7 +7741,7 @@
       "product_count": 17,
       "avg_rating": null,
       "ingredient_count": 22,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Tribulus terrestris",
         "Glucosamine",
@@ -7836,7 +7836,7 @@
       "product_count": 16,
       "avg_rating": null,
       "ingredient_count": 12,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Branched-Chain Amino Acids",
         "L-Leucine (BCAA)",
@@ -7862,7 +7862,7 @@
       "product_count": 16,
       "avg_rating": null,
       "ingredient_count": 14,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Protease",
         "Magnesium",
@@ -7917,7 +7917,7 @@
       "product_count": 16,
       "avg_rating": null,
       "ingredient_count": 12,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Molybdenum",
         "Probiotics",
@@ -7943,7 +7943,7 @@
       "product_count": 16,
       "avg_rating": null,
       "ingredient_count": 17,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Protease",
         "Lipase",
@@ -7973,7 +7973,7 @@
       "product_count": 16,
       "avg_rating": null,
       "ingredient_count": 13,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Vitamin D",
         "Rhodiola",
@@ -8000,7 +8000,7 @@
       "product_count": 16,
       "avg_rating": null,
       "ingredient_count": 21,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Chromium",
         "Biotin",
@@ -8033,7 +8033,7 @@
       "product_count": 16,
       "avg_rating": null,
       "ingredient_count": 12,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Berberine",
         "Calcium",
@@ -8086,7 +8086,7 @@
       "product_count": 15,
       "avg_rating": null,
       "ingredient_count": 16,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Branched-Chain Amino Acids",
         "L-Leucine (BCAA)",
@@ -8116,7 +8116,7 @@
       "product_count": 15,
       "avg_rating": null,
       "ingredient_count": 11,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Magnesium",
         "Biotin",
@@ -8143,7 +8143,7 @@
       "product_count": 15,
       "avg_rating": null,
       "ingredient_count": 9,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Probiotics",
         "Prebiotics",
@@ -8167,7 +8167,7 @@
       "product_count": 15,
       "avg_rating": null,
       "ingredient_count": 5,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Vitamin B1 (Thiamine)",
         "Vitamin C"
@@ -8186,7 +8186,7 @@
       "product_count": 15,
       "avg_rating": null,
       "ingredient_count": 9,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Vitamin D",
         "Betaine (Trimethylglycine)",
@@ -8210,7 +8210,7 @@
       "product_count": 15,
       "avg_rating": null,
       "ingredient_count": 32,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Omega-3 Fatty Acids",
         "Fish Oil",
@@ -8255,7 +8255,7 @@
       "product_count": 15,
       "avg_rating": null,
       "ingredient_count": 5,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Terminalia chebula",
         "Vitamin A",
@@ -8336,7 +8336,7 @@
       "product_count": 14,
       "avg_rating": null,
       "ingredient_count": 11,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Astaxanthin",
         "Creatine",
@@ -8362,7 +8362,7 @@
       "product_count": 14,
       "avg_rating": null,
       "ingredient_count": 14,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "HMB (?-Hydroxy ?-Methylbutyrate)",
         "Creatine",
@@ -8389,7 +8389,7 @@
       "product_count": 14,
       "avg_rating": null,
       "ingredient_count": 9,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Branched-Chain Amino Acids",
         "Whey Protein",
@@ -8413,7 +8413,7 @@
       "product_count": 14,
       "avg_rating": null,
       "ingredient_count": 13,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Collagen",
         "Berberine",
@@ -8437,7 +8437,7 @@
       "product_count": 14,
       "avg_rating": null,
       "ingredient_count": 16,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Serrapeptase",
         "Vitamin A",
@@ -8526,7 +8526,7 @@
       "product_count": 13,
       "avg_rating": null,
       "ingredient_count": 10,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Vitamin B12",
         "Omega-3 Fatty Acids",
@@ -8550,7 +8550,7 @@
       "product_count": 13,
       "avg_rating": null,
       "ingredient_count": 7,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Selenium",
         "Omega-3 Fatty Acids",
@@ -8572,7 +8572,7 @@
       "product_count": 13,
       "avg_rating": null,
       "ingredient_count": 10,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Pea Protein",
         "Collagen",
@@ -8596,7 +8596,7 @@
       "product_count": 13,
       "avg_rating": null,
       "ingredient_count": 17,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Branched-Chain Amino Acids",
         "L-Leucine (BCAA)",
@@ -8627,7 +8627,7 @@
       "product_count": 13,
       "avg_rating": null,
       "ingredient_count": 14,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Branched-Chain Amino Acids",
         "L-Glutamine",
@@ -8655,7 +8655,7 @@
       "product_count": 13,
       "avg_rating": null,
       "ingredient_count": 11,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Bromelain (Protease from Pineapple)",
         "Magnesium",
@@ -8682,7 +8682,7 @@
       "product_count": 13,
       "avg_rating": null,
       "ingredient_count": 12,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Selenium",
         "Chromium",
@@ -8710,7 +8710,7 @@
       "product_count": 13,
       "avg_rating": null,
       "ingredient_count": 13,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Caffeine",
         "Arginine",
@@ -8769,7 +8769,7 @@
       "product_count": 13,
       "avg_rating": null,
       "ingredient_count": 15,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Probiotics",
         "Bifidobacterium longum",
@@ -8800,7 +8800,7 @@
       "product_count": 13,
       "avg_rating": null,
       "ingredient_count": 6,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Vitamin B6 (Pyridoxine)",
         "Zinc",
@@ -8821,7 +8821,7 @@
       "product_count": 13,
       "avg_rating": null,
       "ingredient_count": 2,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Fenugreek (Trigonella foenum-graecum)",
         "Spirulina"
@@ -8840,7 +8840,7 @@
       "product_count": 13,
       "avg_rating": null,
       "ingredient_count": 6,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Hops (Humulus lupulus)",
         "Boswellia serrata",
@@ -8862,7 +8862,7 @@
       "product_count": 13,
       "avg_rating": null,
       "ingredient_count": 7,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Shatavari (Asparagus racemosus)",
         "Licorice Root (Glycyrrhiza glabra)",
@@ -8884,7 +8884,7 @@
       "product_count": 13,
       "avg_rating": null,
       "ingredient_count": 3,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Cordyceps Mushroom (Cordyceps sinensis/militaris)"
       ],
@@ -8902,7 +8902,7 @@
       "product_count": 13,
       "avg_rating": null,
       "ingredient_count": 8,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Berberine",
         "Curcumin",
@@ -8925,7 +8925,7 @@
       "product_count": 12,
       "avg_rating": null,
       "ingredient_count": 13,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Boswellia serrata",
         "Magnesium",
@@ -8979,7 +8979,7 @@
       "product_count": 12,
       "avg_rating": null,
       "ingredient_count": 17,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Magnesium",
         "Turmeric",
@@ -9010,7 +9010,7 @@
       "product_count": 12,
       "avg_rating": null,
       "ingredient_count": 13,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Ginseng",
         "Zinc",
@@ -9036,7 +9036,7 @@
       "product_count": 12,
       "avg_rating": null,
       "ingredient_count": 10,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Iron",
         "Ginseng",
@@ -9084,7 +9084,7 @@
       "product_count": 12,
       "avg_rating": null,
       "ingredient_count": 11,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Activated Charcoal",
         "Garlic (Allium sativum)",
@@ -9109,7 +9109,7 @@
       "product_count": 12,
       "avg_rating": null,
       "ingredient_count": 10,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Vitamin B2 (Riboflavin)",
         "Vitamin B-",
@@ -9133,7 +9133,7 @@
       "product_count": 12,
       "avg_rating": null,
       "ingredient_count": 14,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Probiotics",
         "Lactobacillus acidophilus",
@@ -9185,7 +9185,7 @@
       "product_count": 11,
       "avg_rating": null,
       "ingredient_count": 16,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Ginseng",
         "Berberine",
@@ -9216,7 +9216,7 @@
       "product_count": 11,
       "avg_rating": null,
       "ingredient_count": 6,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Vitex (Chaste Tree Berry)",
         "DHEA (Dehydroepiandrosterone)",
@@ -9239,7 +9239,7 @@
       "product_count": 11,
       "avg_rating": null,
       "ingredient_count": 4,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Ecklonia cava",
         "Chlorella",
@@ -9259,7 +9259,7 @@
       "product_count": 11,
       "avg_rating": null,
       "ingredient_count": 5,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Glutathione",
         "Caffeine",
@@ -9280,7 +9280,7 @@
       "product_count": 11,
       "avg_rating": null,
       "ingredient_count": 5,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Creatine",
         "Whey Protein",
@@ -9300,7 +9300,7 @@
       "product_count": 11,
       "avg_rating": null,
       "ingredient_count": 8,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Vitamin D",
         "Zinc",
@@ -9323,7 +9323,7 @@
       "product_count": 11,
       "avg_rating": null,
       "ingredient_count": 16,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "L-Carnitine",
         "Caffeine",
@@ -9351,7 +9351,7 @@
       "product_count": 11,
       "avg_rating": null,
       "ingredient_count": 13,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Casein Protein",
         "Creatine",
@@ -9376,7 +9376,7 @@
       "product_count": 11,
       "avg_rating": null,
       "ingredient_count": 6,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Wild Yam (Dioscorea villosa)",
         "Glycine",
@@ -9399,7 +9399,7 @@
       "product_count": 11,
       "avg_rating": null,
       "ingredient_count": 8,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Garlic (Allium sativum)",
         "Licorice Root (Glycyrrhiza glabra)",
@@ -9424,7 +9424,7 @@
       "product_count": 11,
       "avg_rating": null,
       "ingredient_count": 15,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Vitamin B3 (Niacin/Niacinamide)",
         "Protease",
@@ -9501,7 +9501,7 @@
       "product_count": 10,
       "avg_rating": null,
       "ingredient_count": 5,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Lipase",
         "Nattokinase",
@@ -9522,7 +9522,7 @@
       "product_count": 10,
       "avg_rating": null,
       "ingredient_count": 17,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Huperzia serrata",
         "Branched-Chain Amino Acids",
@@ -9551,7 +9551,7 @@
       "product_count": 10,
       "avg_rating": null,
       "ingredient_count": 11,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "TUDCA (Tauroursodeoxycholic Acid)",
         "Sodium",
@@ -9577,7 +9577,7 @@
       "product_count": 10,
       "avg_rating": null,
       "ingredient_count": 6,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Potassium",
         "Iodine",
@@ -9600,7 +9600,7 @@
       "product_count": 10,
       "avg_rating": null,
       "ingredient_count": 16,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Coenzyme Q10",
         "Red Yeast Rice",
@@ -9632,7 +9632,7 @@
       "product_count": 10,
       "avg_rating": null,
       "ingredient_count": 5,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "TUDCA (Tauroursodeoxycholic Acid)",
         "Fadogia agrestis",
@@ -9654,7 +9654,7 @@
       "product_count": 10,
       "avg_rating": null,
       "ingredient_count": 6,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Probiotics",
         "Prebiotics"
@@ -9673,7 +9673,7 @@
       "product_count": 10,
       "avg_rating": null,
       "ingredient_count": 18,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Collagen",
         "Biotin",
@@ -9706,7 +9706,7 @@
       "product_count": 10,
       "avg_rating": null,
       "ingredient_count": 14,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Probiotics",
         "Prebiotics",
@@ -9735,7 +9735,7 @@
       "product_count": 9,
       "avg_rating": null,
       "ingredient_count": 3,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Yohimbe (Pausinystalia johimbe)",
         "Collagen"
@@ -9754,7 +9754,7 @@
       "product_count": 9,
       "avg_rating": null,
       "ingredient_count": 10,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "L-Glutamine",
         "Probiotics",
@@ -9778,7 +9778,7 @@
       "product_count": 9,
       "avg_rating": null,
       "ingredient_count": 14,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Protease",
         "Vitamin C",
@@ -9806,7 +9806,7 @@
       "product_count": 9,
       "avg_rating": null,
       "ingredient_count": 10,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Calcium",
         "Inositol (Vitamin B8)",
@@ -9833,7 +9833,7 @@
       "product_count": 9,
       "avg_rating": null,
       "ingredient_count": 11,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "L-Carnitine",
         "Ginseng",
@@ -9860,7 +9860,7 @@
       "product_count": 9,
       "avg_rating": null,
       "ingredient_count": 2,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Cistanche deserticola",
         "Polygonum multiflorum"
@@ -9879,7 +9879,7 @@
       "product_count": 9,
       "avg_rating": null,
       "ingredient_count": 22,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Probiotics",
         "Lactobacillus rhamnosus",
@@ -9913,7 +9913,7 @@
       "product_count": 9,
       "avg_rating": null,
       "ingredient_count": 9,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Ginseng",
         "American Ginseng",
@@ -9939,7 +9939,7 @@
       "product_count": 9,
       "avg_rating": null,
       "ingredient_count": 11,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Resveratrol",
         "Sodium",
@@ -9966,7 +9966,7 @@
       "product_count": 9,
       "avg_rating": null,
       "ingredient_count": 12,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Zinc",
         "Biotin",
@@ -9992,7 +9992,7 @@
       "product_count": 9,
       "avg_rating": null,
       "ingredient_count": 8,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Probiotics",
         "Saccharomyces boulardii",
@@ -10015,7 +10015,7 @@
       "product_count": 9,
       "avg_rating": null,
       "ingredient_count": 7,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Reishi Mushroom (Ganoderma lucidum)",
         "Glutathione",
@@ -10039,7 +10039,7 @@
       "product_count": 9,
       "avg_rating": null,
       "ingredient_count": 2,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Cordyceps Mushroom (Cordyceps sinensis/militaris)"
       ],
@@ -10057,7 +10057,7 @@
       "product_count": 9,
       "avg_rating": null,
       "ingredient_count": 10,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Ginseng",
         "Rhodiola",
@@ -10080,7 +10080,7 @@
       "product_count": 9,
       "avg_rating": null,
       "ingredient_count": 4,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Betaine (Trimethylglycine)",
         "Resveratrol",
@@ -10101,7 +10101,7 @@
       "product_count": 9,
       "avg_rating": null,
       "ingredient_count": 9,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Probiotics",
         "Bacillus coagulans",
@@ -10151,7 +10151,7 @@
       "product_count": 9,
       "avg_rating": null,
       "ingredient_count": 9,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Probiotics",
         "Prebiotics",
@@ -10172,7 +10172,7 @@
       "product_count": 9,
       "avg_rating": null,
       "ingredient_count": 5,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Glucosamine",
         "Chondroitin",
@@ -10193,7 +10193,7 @@
       "product_count": 9,
       "avg_rating": null,
       "ingredient_count": 7,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Ergothioneine",
         "Phosphatidylserine",
@@ -10217,7 +10217,7 @@
       "product_count": 8,
       "avg_rating": null,
       "ingredient_count": 33,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Vitamin C",
         "Choline",
@@ -10263,7 +10263,7 @@
       "product_count": 8,
       "avg_rating": null,
       "ingredient_count": 4,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Magnesium",
         "L-Theanine",
@@ -10284,7 +10284,7 @@
       "product_count": 8,
       "avg_rating": null,
       "ingredient_count": 9,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Berberine",
         "Turmeric",
@@ -10308,7 +10308,7 @@
       "product_count": 8,
       "avg_rating": null,
       "ingredient_count": 7,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Omega-3 Fatty Acids",
         "Astaxanthin",
@@ -10330,7 +10330,7 @@
       "product_count": 8,
       "avg_rating": null,
       "ingredient_count": 15,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Omega-3 Fatty Acids",
         "Fish Oil",
@@ -10359,7 +10359,7 @@
       "product_count": 8,
       "avg_rating": null,
       "ingredient_count": 7,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Shiitake Mushroom (Lentinula edodes)",
         "Agaricus blazei (Himematsutake)",
@@ -10383,7 +10383,7 @@
       "product_count": 8,
       "avg_rating": null,
       "ingredient_count": 2,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Astragalus Root (Astragalus membranaceus)",
         "Valerian Root (Valeriana officinalis)"
@@ -10402,7 +10402,7 @@
       "product_count": 8,
       "avg_rating": null,
       "ingredient_count": 7,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Alkylglycerols",
         "Ecklonia cava",
@@ -10426,7 +10426,7 @@
       "product_count": 8,
       "avg_rating": null,
       "ingredient_count": 8,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Shilajit",
         "Zinc",
@@ -10450,7 +10450,7 @@
       "product_count": 8,
       "avg_rating": null,
       "ingredient_count": 7,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Vitamin C",
         "Turkey Tail Mushroom (Trametes versicolor)",
@@ -10474,7 +10474,7 @@
       "product_count": 8,
       "avg_rating": null,
       "ingredient_count": 10,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Polygala tenuifolia",
         "Gotu Kola (Centella asiatica)",
@@ -10500,7 +10500,7 @@
       "product_count": 8,
       "avg_rating": null,
       "ingredient_count": 6,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Astaxanthin",
         "Tongkat Ali (Eurycoma longifolia)",
@@ -10523,7 +10523,7 @@
       "product_count": 7,
       "avg_rating": null,
       "ingredient_count": 6,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Terminalia chebula",
         "Shatavari (Asparagus racemosus)",
@@ -10544,7 +10544,7 @@
       "product_count": 7,
       "avg_rating": null,
       "ingredient_count": 1,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Chaga Mushroom (Inonotus obliquus)"
       ],
@@ -10562,7 +10562,7 @@
       "product_count": 7,
       "avg_rating": null,
       "ingredient_count": 4,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Magnesium",
         "L-Threonine",
@@ -10583,7 +10583,7 @@
       "product_count": 7,
       "avg_rating": null,
       "ingredient_count": 9,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Cordyceps militaris",
         "Fucoidan",
@@ -10607,7 +10607,7 @@
       "product_count": 7,
       "avg_rating": null,
       "ingredient_count": 6,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Rehmannia glutinosa",
         "Astragalus Root (Astragalus membranaceus)",
@@ -10630,7 +10630,7 @@
       "product_count": 7,
       "avg_rating": null,
       "ingredient_count": 5,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Lactase",
         "Zinc",
@@ -10650,7 +10650,7 @@
       "product_count": 7,
       "avg_rating": null,
       "ingredient_count": 3,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Vitamin D"
       ],
@@ -10668,7 +10668,7 @@
       "product_count": 7,
       "avg_rating": null,
       "ingredient_count": 6,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Rhodiola",
         "Black Cohosh (Actaea racemosa)",
@@ -10689,7 +10689,7 @@
       "product_count": 7,
       "avg_rating": null,
       "ingredient_count": 5,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Nattokinase",
         "Holy Basil (Tulsi)",
@@ -10709,7 +10709,7 @@
       "product_count": 7,
       "avg_rating": null,
       "ingredient_count": 8,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Phosphatidylserine",
         "L-Theanine",
@@ -10732,7 +10732,7 @@
       "product_count": 7,
       "avg_rating": null,
       "ingredient_count": 5,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Ecklonia cava",
         "Fucoidan",
@@ -10753,7 +10753,7 @@
       "product_count": 7,
       "avg_rating": null,
       "ingredient_count": 6,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Branched-Chain Amino Acids",
         "L-Glutamine",
@@ -10774,7 +10774,7 @@
       "product_count": 7,
       "avg_rating": null,
       "ingredient_count": 8,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Caffeine",
         "Vitamin C",
@@ -10797,7 +10797,7 @@
       "product_count": 7,
       "avg_rating": null,
       "ingredient_count": 11,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Coenzyme Q10",
         "Turmeric",
@@ -10822,7 +10822,7 @@
       "product_count": 6,
       "avg_rating": null,
       "ingredient_count": 8,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Inositol (Vitamin B8)",
         "Ashwagandha",
@@ -10845,7 +10845,7 @@
       "product_count": 6,
       "avg_rating": null,
       "ingredient_count": 6,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Creatine",
         "Probiotics",
@@ -10865,7 +10865,7 @@
       "product_count": 6,
       "avg_rating": null,
       "ingredient_count": 6,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Schisandra Berry",
         "Ashwagandha",
@@ -10914,7 +10914,7 @@
       "product_count": 6,
       "avg_rating": null,
       "ingredient_count": 7,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Astaxanthin",
         "Curcumin",
@@ -10937,7 +10937,7 @@
       "product_count": 6,
       "avg_rating": null,
       "ingredient_count": 5,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Chlorella",
         "Lumbrokinase",
@@ -10959,7 +10959,7 @@
       "product_count": 6,
       "avg_rating": null,
       "ingredient_count": 6,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "DIM (Diindolylmethane)",
         "Vitamin D",
@@ -10980,7 +10980,7 @@
       "product_count": 6,
       "avg_rating": null,
       "ingredient_count": 6,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Calcium",
         "Vitamin D",
@@ -11002,7 +11002,7 @@
       "product_count": 6,
       "avg_rating": null,
       "ingredient_count": 4,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Whey Protein",
         "Shilajit",
@@ -11022,7 +11022,7 @@
       "product_count": 6,
       "avg_rating": null,
       "ingredient_count": 5,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Phyllanthus niruri",
         "Shatavari (Asparagus racemosus)",
@@ -11043,7 +11043,7 @@
       "product_count": 6,
       "avg_rating": null,
       "ingredient_count": 3,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Melatonin",
         "5-HTP (5-Hydroxytryptophan)",
@@ -11082,7 +11082,7 @@
       "product_count": 6,
       "avg_rating": null,
       "ingredient_count": 3,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Cordyceps Mushroom (Cordyceps sinensis/militaris)",
         "Ergothioneine",
@@ -11102,7 +11102,7 @@
       "product_count": 5,
       "avg_rating": null,
       "ingredient_count": 2,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Calcium",
         "Iron"
@@ -11121,7 +11121,7 @@
       "product_count": 5,
       "avg_rating": null,
       "ingredient_count": 1,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [],
       "category": "Small Brand",
       "url": "brands/betterbody-foods/",
@@ -11137,7 +11137,7 @@
       "product_count": 5,
       "avg_rating": null,
       "ingredient_count": 3,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Shilajit"
       ],
@@ -11155,7 +11155,7 @@
       "product_count": 5,
       "avg_rating": null,
       "ingredient_count": 8,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Glutathione",
         "Probiotics",
@@ -11178,7 +11178,7 @@
       "product_count": 5,
       "avg_rating": null,
       "ingredient_count": 5,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "L-Citrulline",
         "Citrulline",
@@ -11200,7 +11200,7 @@
       "product_count": 5,
       "avg_rating": null,
       "ingredient_count": 7,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Choline",
         "Rhodiola",
@@ -11222,7 +11222,7 @@
       "product_count": 5,
       "avg_rating": null,
       "ingredient_count": 6,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Beta-Alanine",
         "L-Citrulline",
@@ -11244,7 +11244,7 @@
       "product_count": 5,
       "avg_rating": null,
       "ingredient_count": 5,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Ginseng",
         "Shilajit",
@@ -11264,7 +11264,7 @@
       "product_count": 5,
       "avg_rating": null,
       "ingredient_count": 1,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Reishi Mushroom (Ganoderma lucidum)"
       ],
@@ -11282,7 +11282,7 @@
       "product_count": 5,
       "avg_rating": null,
       "ingredient_count": 2,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Ginseng",
         "American Ginseng"
@@ -11301,7 +11301,7 @@
       "product_count": 5,
       "avg_rating": null,
       "ingredient_count": 4,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Gastrodia elata",
         "Kava (Piper methysticum)",
@@ -11321,7 +11321,7 @@
       "product_count": 5,
       "avg_rating": null,
       "ingredient_count": 4,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Flaxseed Oil (ALA)",
         "Alpha-Lipoic Acid (ALA)",
@@ -11342,7 +11342,7 @@
       "product_count": 5,
       "avg_rating": null,
       "ingredient_count": 5,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Choline",
         "Probiotics",
@@ -11364,7 +11364,7 @@
       "product_count": 5,
       "avg_rating": null,
       "ingredient_count": 6,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Vitamin K",
         "Bacillus coagulans",
@@ -11386,7 +11386,7 @@
       "product_count": 5,
       "avg_rating": null,
       "ingredient_count": 4,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Chaga Mushroom (Inonotus obliquus)",
         "Maitake Mushroom (Grifola frondosa)",
@@ -11428,7 +11428,7 @@
       "product_count": 5,
       "avg_rating": null,
       "ingredient_count": 12,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Chromium",
         "Vanadium",
@@ -11455,7 +11455,7 @@
       "product_count": 4,
       "avg_rating": null,
       "ingredient_count": 2,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Berberine"
       ],
@@ -11473,7 +11473,7 @@
       "product_count": 4,
       "avg_rating": null,
       "ingredient_count": 4,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Passionflower (Passiflora incarnata)",
         "Chamomile (Matricaria chamomilla)",
@@ -11494,7 +11494,7 @@
       "product_count": 4,
       "avg_rating": null,
       "ingredient_count": 6,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Biotin",
         "Omega-3 Fatty Acids",
@@ -11517,7 +11517,7 @@
       "product_count": 4,
       "avg_rating": null,
       "ingredient_count": 3,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Cistanche deserticola",
         "Gastrodia elata",
@@ -11537,7 +11537,7 @@
       "product_count": 4,
       "avg_rating": null,
       "ingredient_count": 5,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Lactobacillus casei",
         "Lactobacillus plantarum",
@@ -11558,7 +11558,7 @@
       "product_count": 4,
       "avg_rating": null,
       "ingredient_count": 7,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "L-Arginine",
         "L-Citrulline",
@@ -11580,7 +11580,7 @@
       "product_count": 4,
       "avg_rating": null,
       "ingredient_count": 2,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Vitamin B2 (Riboflavin)",
         "Plant Sterols (Phytosterols)"
@@ -11599,7 +11599,7 @@
       "product_count": 4,
       "avg_rating": null,
       "ingredient_count": 1,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Ginseng"
       ],
@@ -11617,7 +11617,7 @@
       "product_count": 4,
       "avg_rating": null,
       "ingredient_count": 5,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Nattokinase",
         "Probiotics",
@@ -11638,7 +11638,7 @@
       "product_count": 4,
       "avg_rating": null,
       "ingredient_count": 5,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "L-Glutamine",
         "Casein Protein",
@@ -11658,7 +11658,7 @@
       "product_count": 4,
       "avg_rating": null,
       "ingredient_count": 5,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Ashwagandha",
         "L-Carnitine",
@@ -11679,7 +11679,7 @@
       "product_count": 4,
       "avg_rating": null,
       "ingredient_count": 5,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Gynostemma",
         "Reishi Mushroom (Ganoderma lucidum)",
@@ -11700,7 +11700,7 @@
       "product_count": 4,
       "avg_rating": null,
       "ingredient_count": 7,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Omega-3 Fatty Acids",
         "Fish Oil",
@@ -11723,7 +11723,7 @@
       "product_count": 4,
       "avg_rating": null,
       "ingredient_count": 6,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Coenzyme Q10",
         "Probiotics",
@@ -11744,7 +11744,7 @@
       "product_count": 4,
       "avg_rating": null,
       "ingredient_count": 4,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Vitamin B9 (Folic Acid)",
         "Spirulina",
@@ -11765,7 +11765,7 @@
       "product_count": 4,
       "avg_rating": null,
       "ingredient_count": 11,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Omega-3 Fatty Acids",
         "Astaxanthin",
@@ -11791,7 +11791,7 @@
       "product_count": 4,
       "avg_rating": null,
       "ingredient_count": 3,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Coenzyme Q10",
         "Omega-3 Fatty Acids"
@@ -11810,7 +11810,7 @@
       "product_count": 4,
       "avg_rating": null,
       "ingredient_count": 8,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Glucosamine",
         "Chondroitin",
@@ -11833,7 +11833,7 @@
       "product_count": 3,
       "avg_rating": null,
       "ingredient_count": 2,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Bacillus coagulans"
       ],
@@ -11851,7 +11851,7 @@
       "product_count": 3,
       "avg_rating": null,
       "ingredient_count": 3,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Cistanche deserticola",
         "Rhaponticum carthamoides (Maral Root)",
@@ -11871,7 +11871,7 @@
       "product_count": 3,
       "avg_rating": null,
       "ingredient_count": 2,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Biotin",
         "Apple Cider Vinegar"
@@ -11890,7 +11890,7 @@
       "product_count": 3,
       "avg_rating": null,
       "ingredient_count": 2,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Phosphorus",
         "Boiron Stresscalm"
@@ -11909,7 +11909,7 @@
       "product_count": 3,
       "avg_rating": null,
       "ingredient_count": 6,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Potassium",
         "Sodium",
@@ -11931,7 +11931,7 @@
       "product_count": 3,
       "avg_rating": null,
       "ingredient_count": 1,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Sodium"
       ],
@@ -11949,7 +11949,7 @@
       "product_count": 3,
       "avg_rating": null,
       "ingredient_count": 2,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Molybdenum",
         "Fish Oil"
@@ -11968,7 +11968,7 @@
       "product_count": 3,
       "avg_rating": null,
       "ingredient_count": 2,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Phyllanthus niruri"
       ],
@@ -11986,7 +11986,7 @@
       "product_count": 3,
       "avg_rating": null,
       "ingredient_count": 7,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Turmeric",
         "Curcumin",
@@ -12008,7 +12008,7 @@
       "product_count": 3,
       "avg_rating": null,
       "ingredient_count": 1,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Ginseng"
       ],
@@ -12026,7 +12026,7 @@
       "product_count": 3,
       "avg_rating": null,
       "ingredient_count": 3,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Magnesium",
         "L-Theanine"
@@ -12045,7 +12045,7 @@
       "product_count": 3,
       "avg_rating": null,
       "ingredient_count": 3,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Bacillus subtilis",
         "Magnesium",
@@ -12065,7 +12065,7 @@
       "product_count": 3,
       "avg_rating": null,
       "ingredient_count": 2,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Lumbrokinase",
         "Nattokinase"
@@ -12084,7 +12084,7 @@
       "product_count": 3,
       "avg_rating": null,
       "ingredient_count": 2,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Holy Basil (Tulsi)",
         "Resveratrol"
@@ -12103,7 +12103,7 @@
       "product_count": 3,
       "avg_rating": null,
       "ingredient_count": 9,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Branched-Chain Amino Acids",
         "Vitamin D",
@@ -12128,7 +12128,7 @@
       "product_count": 3,
       "avg_rating": null,
       "ingredient_count": 1,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [],
       "category": "Small Brand",
       "url": "brands/heiltropfen/",
@@ -12144,7 +12144,7 @@
       "product_count": 3,
       "avg_rating": null,
       "ingredient_count": 2,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Black Cohosh (Actaea racemosa)",
         "Muira Puama (Ptychopetalum olacoides)"
@@ -12163,7 +12163,7 @@
       "product_count": 3,
       "avg_rating": null,
       "ingredient_count": 4,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Caralluma fimbriata",
         "Biotin",
@@ -12183,7 +12183,7 @@
       "product_count": 3,
       "avg_rating": null,
       "ingredient_count": 4,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Ginkgo biloba",
         "Hawthorn Berry (Crataegus)",
@@ -12203,7 +12203,7 @@
       "product_count": 3,
       "avg_rating": null,
       "ingredient_count": 3,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Terminalia chebula"
       ],
@@ -12221,7 +12221,7 @@
       "product_count": 3,
       "avg_rating": null,
       "ingredient_count": 4,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Vitamin C",
         "Biotin",
@@ -12242,7 +12242,7 @@
       "product_count": 3,
       "avg_rating": null,
       "ingredient_count": 1,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Molybdenum"
       ],
@@ -12260,7 +12260,7 @@
       "product_count": 3,
       "avg_rating": null,
       "ingredient_count": 2,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Ginseng",
         "Tremella fuciformis (Snow Fungus)"
@@ -12279,7 +12279,7 @@
       "product_count": 3,
       "avg_rating": null,
       "ingredient_count": 1,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Lactase"
       ],
@@ -12297,7 +12297,7 @@
       "product_count": 3,
       "avg_rating": null,
       "ingredient_count": 4,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Fucoidan",
         "Choline",
@@ -12318,7 +12318,7 @@
       "product_count": 3,
       "avg_rating": null,
       "ingredient_count": 5,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Vitamin C",
         "Vitamin B12",
@@ -12339,7 +12339,7 @@
       "product_count": 3,
       "avg_rating": null,
       "ingredient_count": 4,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Vitamin D",
         "Calcium",
@@ -12359,7 +12359,7 @@
       "product_count": 3,
       "avg_rating": null,
       "ingredient_count": 4,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Caffeine",
         "Turmeric",
@@ -12379,7 +12379,7 @@
       "product_count": 3,
       "avg_rating": null,
       "ingredient_count": 1,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Schisandra Berry"
       ],
@@ -12397,7 +12397,7 @@
       "product_count": 3,
       "avg_rating": null,
       "ingredient_count": 2,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Chamomile (Matricaria chamomilla)",
         "Milk Thistle (Silybum marianum)"
@@ -12416,7 +12416,7 @@
       "product_count": 3,
       "avg_rating": null,
       "ingredient_count": 3,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Fucoidan",
         "Selenium",
@@ -12436,7 +12436,7 @@
       "product_count": 3,
       "avg_rating": null,
       "ingredient_count": 3,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Rhodiola"
       ],
@@ -12454,7 +12454,7 @@
       "product_count": 3,
       "avg_rating": null,
       "ingredient_count": 6,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Choline",
         "Omega-3 Fatty Acids",
@@ -12477,7 +12477,7 @@
       "product_count": 3,
       "avg_rating": null,
       "ingredient_count": 1,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "DIM (Diindolylmethane)"
       ],
@@ -12495,7 +12495,7 @@
       "product_count": 3,
       "avg_rating": null,
       "ingredient_count": 3,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Caffeine",
         "Ginseng",
@@ -12515,7 +12515,7 @@
       "product_count": 3,
       "avg_rating": null,
       "ingredient_count": 7,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "TUDCA (Tauroursodeoxycholic Acid)",
         "Probiotics",
@@ -12536,7 +12536,7 @@
       "product_count": 3,
       "avg_rating": null,
       "ingredient_count": 4,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Horny Goat Weed (Epimedium)",
         "Probiotics",
@@ -12557,7 +12557,7 @@
       "product_count": 3,
       "avg_rating": null,
       "ingredient_count": 5,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Collagen",
         "Vitamin C",
@@ -12577,7 +12577,7 @@
       "product_count": 3,
       "avg_rating": null,
       "ingredient_count": 1,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Vitamin E (Tocopherols/Tocotrienols)"
       ],
@@ -12595,7 +12595,7 @@
       "product_count": 3,
       "avg_rating": null,
       "ingredient_count": 2,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Polygala tenuifolia",
         "Rhaponticum carthamoides (Maral Root)"
@@ -12614,7 +12614,7 @@
       "product_count": 3,
       "avg_rating": null,
       "ingredient_count": 2,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Choline",
         "Uridine Monophosphate"
@@ -12633,7 +12633,7 @@
       "product_count": 3,
       "avg_rating": null,
       "ingredient_count": 6,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Muira Puama (Ptychopetalum olacoides)",
         "Rhodiola",
@@ -12655,7 +12655,7 @@
       "product_count": 2,
       "avg_rating": null,
       "ingredient_count": 2,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Vitamin B12",
         "Betaine (Trimethylglycine)"
@@ -12674,7 +12674,7 @@
       "product_count": 2,
       "avg_rating": null,
       "ingredient_count": 3,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Fucoidan",
         "Choline",
@@ -12694,7 +12694,7 @@
       "product_count": 2,
       "avg_rating": null,
       "ingredient_count": 2,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Phyllanthus niruri",
         "Maitake Mushroom (Grifola frondosa)"
@@ -12713,7 +12713,7 @@
       "product_count": 2,
       "avg_rating": null,
       "ingredient_count": 2,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Lumbrokinase",
         "L-Methionine"
@@ -12732,7 +12732,7 @@
       "product_count": 2,
       "avg_rating": null,
       "ingredient_count": 2,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Tyrosine",
         "Glutathione"
@@ -12751,7 +12751,7 @@
       "product_count": 2,
       "avg_rating": null,
       "ingredient_count": 5,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Magnesium",
         "Probiotics",
@@ -12772,7 +12772,7 @@
       "product_count": 2,
       "avg_rating": null,
       "ingredient_count": 0,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [],
       "category": "Small Brand",
       "url": "brands/bliva-nutrition/",
@@ -12788,7 +12788,7 @@
       "product_count": 2,
       "avg_rating": null,
       "ingredient_count": 1,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Omega-3 Fatty Acids"
       ],
@@ -12806,7 +12806,7 @@
       "product_count": 2,
       "avg_rating": null,
       "ingredient_count": 2,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Cordyceps militaris",
         "Tremella fuciformis (Snow Fungus)"
@@ -12825,7 +12825,7 @@
       "product_count": 2,
       "avg_rating": null,
       "ingredient_count": 1,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Gastrodia elata"
       ],
@@ -12843,7 +12843,7 @@
       "product_count": 2,
       "avg_rating": null,
       "ingredient_count": 3,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Probiotics",
         "Saccharomyces boulardii"
@@ -12862,7 +12862,7 @@
       "product_count": 2,
       "avg_rating": null,
       "ingredient_count": 2,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Astaxanthin",
         "Vitamin D"
@@ -12881,7 +12881,7 @@
       "product_count": 2,
       "avg_rating": null,
       "ingredient_count": 6,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Branched-Chain Amino Acids",
         "L-Leucine (BCAA)",
@@ -12903,7 +12903,7 @@
       "product_count": 2,
       "avg_rating": null,
       "ingredient_count": 1,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Ginseng"
       ],
@@ -12921,7 +12921,7 @@
       "product_count": 2,
       "avg_rating": null,
       "ingredient_count": 2,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Magnesium"
       ],
@@ -12939,7 +12939,7 @@
       "product_count": 2,
       "avg_rating": null,
       "ingredient_count": 2,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Licorice Root (Glycyrrhiza glabra)",
         "Mucuna pruriens (Velvet Bean)"
@@ -12958,7 +12958,7 @@
       "product_count": 2,
       "avg_rating": null,
       "ingredient_count": 1,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Fadogia agrestis"
       ],
@@ -12976,7 +12976,7 @@
       "product_count": 2,
       "avg_rating": null,
       "ingredient_count": 4,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Molybdenum",
         "Collagen",
@@ -12996,7 +12996,7 @@
       "product_count": 2,
       "avg_rating": null,
       "ingredient_count": 2,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Chaga Mushroom (Inonotus obliquus)",
         "Shiitake Mushroom (Lentinula edodes)"
@@ -13015,7 +13015,7 @@
       "product_count": 2,
       "avg_rating": null,
       "ingredient_count": 4,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Vitamin D",
         "Vitamin B12",
@@ -13035,7 +13035,7 @@
       "product_count": 2,
       "avg_rating": null,
       "ingredient_count": 2,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Sodium",
         "Potassium"
@@ -13054,7 +13054,7 @@
       "product_count": 2,
       "avg_rating": null,
       "ingredient_count": 3,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Folic Acid",
         "Vitamin K1 (Phylloquinone)"
@@ -13073,7 +13073,7 @@
       "product_count": 2,
       "avg_rating": null,
       "ingredient_count": 3,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Astaxanthin",
         "Ginseng",
@@ -13093,7 +13093,7 @@
       "product_count": 2,
       "avg_rating": null,
       "ingredient_count": 2,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Whey Protein",
         "Beta-Alanine"
@@ -13132,7 +13132,7 @@
       "product_count": 2,
       "avg_rating": null,
       "ingredient_count": 3,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Silicon (Silica)",
         "Magnesium"
@@ -13151,7 +13151,7 @@
       "product_count": 2,
       "avg_rating": null,
       "ingredient_count": 1,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Terminalia chebula"
       ],
@@ -13169,7 +13169,7 @@
       "product_count": 2,
       "avg_rating": null,
       "ingredient_count": 1,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Agaricus blazei (Himematsutake)"
       ],
@@ -13187,7 +13187,7 @@
       "product_count": 2,
       "avg_rating": null,
       "ingredient_count": 3,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Casein Protein"
       ],
@@ -13205,7 +13205,7 @@
       "product_count": 2,
       "avg_rating": null,
       "ingredient_count": 2,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Nattokinase",
         "Berberine"
@@ -13224,7 +13224,7 @@
       "product_count": 2,
       "avg_rating": null,
       "ingredient_count": 3,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Nattokinase",
         "Shilajit"
@@ -13243,7 +13243,7 @@
       "product_count": 2,
       "avg_rating": null,
       "ingredient_count": 5,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Omega-3 Fatty Acids",
         "Fish Oil",
@@ -13265,7 +13265,7 @@
       "product_count": 2,
       "avg_rating": null,
       "ingredient_count": 2,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Probiotics",
         "Lactobacillus rhamnosus"
@@ -13284,7 +13284,7 @@
       "product_count": 2,
       "avg_rating": null,
       "ingredient_count": 1,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Copper"
       ],
@@ -13302,7 +13302,7 @@
       "product_count": 2,
       "avg_rating": null,
       "ingredient_count": 3,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Tongkat Ali (Eurycoma longifolia)",
         "Creatine"
@@ -13321,7 +13321,7 @@
       "product_count": 2,
       "avg_rating": null,
       "ingredient_count": 2,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Vitamin A",
         "L-Glutamine"
@@ -13340,7 +13340,7 @@
       "product_count": 2,
       "avg_rating": null,
       "ingredient_count": 4,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Probiotics",
         "Bacillus coagulans",
@@ -13360,7 +13360,7 @@
       "product_count": 2,
       "avg_rating": null,
       "ingredient_count": 2,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Protease",
         "Lipase"
@@ -13379,7 +13379,7 @@
       "product_count": 2,
       "avg_rating": null,
       "ingredient_count": 1,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Ginseng"
       ],
@@ -13397,7 +13397,7 @@
       "product_count": 2,
       "avg_rating": null,
       "ingredient_count": 0,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [],
       "category": "Small Brand",
       "url": "brands/nutramax-laboratories/",
@@ -13413,7 +13413,7 @@
       "product_count": 2,
       "avg_rating": null,
       "ingredient_count": 1,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Berberine"
       ],
@@ -13431,7 +13431,7 @@
       "product_count": 2,
       "avg_rating": null,
       "ingredient_count": 7,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Vitamin D",
         "Berberine",
@@ -13454,7 +13454,7 @@
       "product_count": 2,
       "avg_rating": null,
       "ingredient_count": 1,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Ormus Minerals"
       ],
@@ -13472,7 +13472,7 @@
       "product_count": 2,
       "avg_rating": null,
       "ingredient_count": 2,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Holy Basil (Tulsi)",
         "Gotu Kola (Centella asiatica)"
@@ -13491,7 +13491,7 @@
       "product_count": 2,
       "avg_rating": null,
       "ingredient_count": 2,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Terminalia chebula",
         "Shatavari (Asparagus racemosus)"
@@ -13510,7 +13510,7 @@
       "product_count": 2,
       "avg_rating": null,
       "ingredient_count": 4,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Collagen"
       ],
@@ -13528,7 +13528,7 @@
       "product_count": 2,
       "avg_rating": null,
       "ingredient_count": 2,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Lactase",
         "TUDCA (Tauroursodeoxycholic Acid)"
@@ -13547,7 +13547,7 @@
       "product_count": 2,
       "avg_rating": null,
       "ingredient_count": 4,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Phosphatidylserine",
         "Gymnema sylvestre"
@@ -13566,7 +13566,7 @@
       "product_count": 2,
       "avg_rating": null,
       "ingredient_count": 3,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Manganese",
         "Shilajit"
@@ -13585,7 +13585,7 @@
       "product_count": 2,
       "avg_rating": null,
       "ingredient_count": 2,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Polygala tenuifolia",
         "Gastrodia elata"
@@ -13604,7 +13604,7 @@
       "product_count": 2,
       "avg_rating": null,
       "ingredient_count": 3,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Whey Protein"
       ],
@@ -13622,7 +13622,7 @@
       "product_count": 2,
       "avg_rating": null,
       "ingredient_count": 4,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Boron",
         "Glycine",
@@ -13643,7 +13643,7 @@
       "product_count": 2,
       "avg_rating": null,
       "ingredient_count": 2,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Coenzyme Q10",
         "Red Yeast Rice"
@@ -13662,7 +13662,7 @@
       "product_count": 2,
       "avg_rating": null,
       "ingredient_count": 2,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Andrographis paniculata",
         "Zinc"
@@ -13681,7 +13681,7 @@
       "product_count": 2,
       "avg_rating": null,
       "ingredient_count": 1,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Gynostemma"
       ],
@@ -13699,7 +13699,7 @@
       "product_count": 2,
       "avg_rating": null,
       "ingredient_count": 2,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Bitter Melon (Momordica charantia)"
       ],
@@ -13717,7 +13717,7 @@
       "product_count": 2,
       "avg_rating": null,
       "ingredient_count": 5,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Branched-Chain Amino Acids",
         "Whey Protein",
@@ -13738,7 +13738,7 @@
       "product_count": 2,
       "avg_rating": null,
       "ingredient_count": 2,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Fadogia agrestis"
       ],
@@ -13756,7 +13756,7 @@
       "product_count": 2,
       "avg_rating": null,
       "ingredient_count": 3,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Protease"
       ],
@@ -13774,7 +13774,7 @@
       "product_count": 2,
       "avg_rating": null,
       "ingredient_count": 4,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Coenzyme Q10",
         "Red Yeast Rice",
@@ -13795,7 +13795,7 @@
       "product_count": 2,
       "avg_rating": null,
       "ingredient_count": 1,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [],
       "category": "Small Brand",
       "url": "brands/universal-nutrition/",
@@ -13811,7 +13811,7 @@
       "product_count": 2,
       "avg_rating": null,
       "ingredient_count": 2,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Vitamin B-",
         "Vitamin B6 (Pyridoxine)"
@@ -13830,7 +13830,7 @@
       "product_count": 2,
       "avg_rating": null,
       "ingredient_count": 4,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Collagen",
         "Vitamin C",
@@ -13851,7 +13851,7 @@
       "product_count": 2,
       "avg_rating": null,
       "ingredient_count": 2,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Inositol (Vitamin B8)",
         "Vitex (Chaste Tree Berry)"
@@ -13870,7 +13870,7 @@
       "product_count": 2,
       "avg_rating": null,
       "ingredient_count": 3,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Vitamin C",
         "Collagen"
@@ -13889,7 +13889,7 @@
       "product_count": 2,
       "avg_rating": null,
       "ingredient_count": 1,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [],
       "category": "Small Brand",
       "url": "brands/zptech/",
@@ -13905,7 +13905,7 @@
       "product_count": 2,
       "avg_rating": null,
       "ingredient_count": 2,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Glycine",
         "Omega-3 Fatty Acids"
@@ -13924,7 +13924,7 @@
       "product_count": 2,
       "avg_rating": null,
       "ingredient_count": 4,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Curcumin",
         "Omega-3 Fatty Acids",
@@ -13944,7 +13944,7 @@
       "product_count": 2,
       "avg_rating": null,
       "ingredient_count": 2,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Licorice Root (Glycyrrhiza glabra)",
         "Bitter Melon (Momordica charantia)"
@@ -13963,7 +13963,7 @@
       "product_count": 2,
       "avg_rating": null,
       "ingredient_count": 0,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [],
       "category": "Small Brand",
       "url": "brands/root-spring/",
@@ -13979,7 +13979,7 @@
       "product_count": 2,
       "avg_rating": null,
       "ingredient_count": 2,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Holy Basil (Tulsi)",
         "Boswellia serrata"
@@ -13998,7 +13998,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 3,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Probiotics",
         "Bacillus subtilis"
@@ -14017,7 +14017,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 1,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Tremella fuciformis (Snow Fungus)"
       ],
@@ -14035,7 +14035,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 2,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Choline",
         "Vitamin B-"
@@ -14054,7 +14054,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 0,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [],
       "category": "Small Brand",
       "url": "brands/dcm/",
@@ -14070,7 +14070,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 1,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Cordyceps militaris"
       ],
@@ -14088,7 +14088,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 1,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [],
       "category": "Small Brand",
       "url": "brands/immortal-herbs/",
@@ -14104,7 +14104,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 1,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Gynostemma"
       ],
@@ -14122,7 +14122,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 2,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Bifidobacterium longum"
       ],
@@ -14140,7 +14140,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 1,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Licorice Root (Glycyrrhiza glabra)"
       ],
@@ -14158,7 +14158,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 2,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Potassium",
         "Iodine"
@@ -14177,7 +14177,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 2,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Whey Protein"
       ],
@@ -14195,7 +14195,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 1,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [],
       "category": "Small Brand",
       "url": "brands/jiva-botanicals/",
@@ -14211,7 +14211,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 1,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Activated Charcoal"
       ],
@@ -14229,7 +14229,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 1,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Lions Mane Mushroom (Hericium erinaceus)"
       ],
@@ -14247,7 +14247,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 1,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Tremella fuciformis (Snow Fungus)"
       ],
@@ -14265,7 +14265,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 2,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Probiotics",
         "Lactobacillus casei"
@@ -14284,7 +14284,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 5,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Branched-Chain Amino Acids",
         "L-Leucine (BCAA)",
@@ -14305,7 +14305,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 1,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Vitamin E (Tocopherols/Tocotrienols)"
       ],
@@ -14323,7 +14323,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 4,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Omega-3 Fatty Acids",
         "Fish Oil",
@@ -14344,7 +14344,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 2,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "L-Leucine (BCAA)",
         "Leucine"
@@ -14363,7 +14363,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 1,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Maitake Mushroom (Grifola frondosa)"
       ],
@@ -14381,7 +14381,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 1,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Polygonum multiflorum"
       ],
@@ -14399,7 +14399,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 1,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Ginseng"
       ],
@@ -14417,7 +14417,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 1,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Potassium"
       ],
@@ -14435,7 +14435,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 1,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Turkey Tail Mushroom (Trametes versicolor)"
       ],
@@ -14453,7 +14453,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 1,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Polygonum multiflorum"
       ],
@@ -14471,7 +14471,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 1,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Vitamin C"
       ],
@@ -14489,7 +14489,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 2,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Vitamin B1 (Thiamine)",
         "Vitamin B-"
@@ -14508,7 +14508,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 4,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Omega-3 Fatty Acids",
         "Fish Oil",
@@ -14529,7 +14529,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 1,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Phyllanthus niruri"
       ],
@@ -14547,7 +14547,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 2,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "L-Tyrosine",
         "Tyrosine"
@@ -14566,7 +14566,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 1,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Ginseng"
       ],
@@ -14584,7 +14584,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 1,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Garcinia Cambogia (HCA)"
       ],
@@ -14602,7 +14602,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 1,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [],
       "category": "Small Brand",
       "url": "brands/majestic-herbs/",
@@ -14618,7 +14618,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 1,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Kava (Piper methysticum)"
       ],
@@ -14636,7 +14636,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 1,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Citicoline (CDP-Choline)"
       ],
@@ -14654,7 +14654,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 1,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Garcinia Cambogia (HCA)"
       ],
@@ -14672,7 +14672,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 0,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [],
       "category": "Small Brand",
       "url": "brands/memoryup/",
@@ -14688,7 +14688,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 1,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [],
       "category": "Small Brand",
       "url": "brands/menkru/",
@@ -14704,7 +14704,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 1,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Berberine"
       ],
@@ -14722,7 +14722,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 3,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Rhodiola",
         "Ginseng",
@@ -14742,7 +14742,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 3,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Protease",
         "Lipase"
@@ -14761,7 +14761,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 3,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Probiotics",
         "Bacillus subtilis"
@@ -14780,7 +14780,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 3,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Chromium",
         "Berberine",
@@ -14800,7 +14800,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 1,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "L-Histidine"
       ],
@@ -14818,7 +14818,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 1,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Passionflower (Passiflora incarnata)"
       ],
@@ -14836,7 +14836,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 1,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [],
       "category": "Small Brand",
       "url": "brands/muscle-milk/",
@@ -14852,7 +14852,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 1,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Maitake Mushroom (Grifola frondosa)"
       ],
@@ -14870,7 +14870,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 0,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [],
       "category": "Small Brand",
       "url": "brands/natures-branch/",
@@ -14886,7 +14886,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 1,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Plant Sterols (Phytosterols)"
       ],
@@ -14904,7 +14904,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 1,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Phyllanthus niruri"
       ],
@@ -14922,7 +14922,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 2,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Maca Root (Lepidium meyenii)",
         "Horny Goat Weed (Epimedium)"
@@ -14941,7 +14941,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 1,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Andrographis paniculata"
       ],
@@ -14959,7 +14959,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 2,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Chromium",
         "Vanadium"
@@ -14978,7 +14978,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 1,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Gotu Kola (Centella asiatica)"
       ],
@@ -14996,7 +14996,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 0,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [],
       "category": "Small Brand",
       "url": "brands/nature-berg/",
@@ -15012,7 +15012,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 1,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Schisandra Berry"
       ],
@@ -15030,7 +15030,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 1,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Ergothioneine"
       ],
@@ -15048,7 +15048,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 1,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "L-Theanine"
       ],
@@ -15066,7 +15066,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 1,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Vitamin E (Tocopherols/Tocotrienols)"
       ],
@@ -15084,7 +15084,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 2,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "L-Citrulline",
         "Citrulline"
@@ -15103,7 +15103,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 1,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Cordyceps militaris"
       ],
@@ -15121,7 +15121,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 1,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Silicon (Silica)"
       ],
@@ -15139,7 +15139,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 2,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Protease"
       ],
@@ -15157,7 +15157,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 1,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [],
       "category": "Small Brand",
       "url": "brands/nautical-elements/",
@@ -15173,7 +15173,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 1,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Choline"
       ],
@@ -15191,7 +15191,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 1,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Vitamin C"
       ],
@@ -15209,7 +15209,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 1,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Vitamin D"
       ],
@@ -15227,7 +15227,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 3,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Ergothioneine",
         "Resveratrol"
@@ -15246,7 +15246,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 2,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Ginseng",
         "Ginkgo biloba"
@@ -15265,7 +15265,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 1,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Pea Protein"
       ],
@@ -15283,7 +15283,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 1,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Turkey Tail Mushroom (Trametes versicolor)"
       ],
@@ -15301,7 +15301,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 1,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Tribulus terrestris"
       ],
@@ -15319,7 +15319,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 1,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Gotu Kola (Centella asiatica)"
       ],
@@ -15337,7 +15337,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 1,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "L-Carnitine"
       ],
@@ -15355,7 +15355,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 1,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Zeolite (Clinoptilolite)"
       ],
@@ -15373,7 +15373,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 1,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Spirulina"
       ],
@@ -15391,7 +15391,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 2,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Probiotics"
       ],
@@ -15409,7 +15409,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 1,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Agaricus blazei (Himematsutake)"
       ],
@@ -15427,7 +15427,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 6,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Branched-Chain Amino Acids",
         "L-Leucine (BCAA)",
@@ -15448,7 +15448,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 2,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Zinc",
         "Activated Charcoal"
@@ -15467,7 +15467,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 2,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Glycine",
         "Glutathione"
@@ -15486,7 +15486,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 4,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Omega-3 Fatty Acids",
         "Fish Oil",
@@ -15507,7 +15507,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 1,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Vitamin D"
       ],
@@ -15525,7 +15525,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 1,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Caffeine"
       ],
@@ -15543,7 +15543,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 1,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Mucuna pruriens (Velvet Bean)"
       ],
@@ -15561,7 +15561,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 2,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Ginseng"
       ],
@@ -15579,7 +15579,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 2,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Collagen"
       ],
@@ -15597,7 +15597,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 3,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Vitamin C",
         "Glucosamine",
@@ -15617,7 +15617,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 1,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Fucoidan"
       ],
@@ -15635,7 +15635,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 1,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Vitamin K"
       ],
@@ -15653,7 +15653,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 1,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Resveratrol"
       ],
@@ -15671,7 +15671,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 1,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Andrographis paniculata"
       ],
@@ -15689,7 +15689,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 1,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Fadogia agrestis"
       ],
@@ -15707,7 +15707,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 2,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Lumbrokinase",
         "Nattokinase"
@@ -15726,7 +15726,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 1,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Phyllanthus niruri"
       ],
@@ -15744,7 +15744,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 1,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Choline"
       ],
@@ -15762,7 +15762,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 1,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Beta-Alanine"
       ],
@@ -15780,7 +15780,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 1,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Ginseng"
       ],
@@ -15798,7 +15798,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 1,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Ergothioneine"
       ],
@@ -15816,7 +15816,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 0,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [],
       "category": "Small Brand",
       "url": "brands/prodrome/",
@@ -15832,7 +15832,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 2,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Schisandra Berry",
         "Schisandra chinensis"
@@ -15851,7 +15851,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 1,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Shilajit"
       ],
@@ -15869,7 +15869,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 2,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "5-HTP (5-Hydroxytryptophan)",
         "GABA (Gamma-Aminobutyric Acid)"
@@ -15888,7 +15888,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 1,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Garlic (Allium sativum)"
       ],
@@ -15906,7 +15906,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 1,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [],
       "category": "Small Brand",
       "url": "brands/purecontrol-supplements/",
@@ -15922,7 +15922,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 2,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Vitamin C"
       ],
@@ -15940,7 +15940,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 0,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [],
       "category": "Small Brand",
       "url": "brands/remory/",
@@ -15956,7 +15956,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 1,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Fadogia agrestis"
       ],
@@ -15974,7 +15974,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 1,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Polygala tenuifolia (Yuan Zhi)"
       ],
@@ -15992,7 +15992,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 0,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [],
       "category": "Small Brand",
       "url": "brands/remedys-nutrition/",
@@ -16008,7 +16008,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 2,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Probiotics",
         "Bacillus subtilis"
@@ -16027,7 +16027,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 1,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Glutathione"
       ],
@@ -16045,7 +16045,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 2,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Schisandra Berry",
         "Schisandra chinensis"
@@ -16064,7 +16064,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 2,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Vitamin B12"
       ],
@@ -16082,7 +16082,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 2,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Casein Protein"
       ],
@@ -16100,7 +16100,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 1,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Potassium"
       ],
@@ -16118,7 +16118,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 4,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Probiotics",
         "Lactobacillus casei",
@@ -16138,7 +16138,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 1,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Astaxanthin"
       ],
@@ -16156,7 +16156,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 1,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [],
       "category": "Small Brand",
       "url": "brands/sport-supplements/",
@@ -16172,7 +16172,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 1,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Andrographis paniculata"
       ],
@@ -16190,7 +16190,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 3,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Zinc",
         "Vitamin A",
@@ -16210,7 +16210,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 1,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Fadogia agrestis"
       ],
@@ -16228,7 +16228,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 2,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Iron",
         "Molybdenum"
@@ -16247,7 +16247,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 1,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Iron"
       ],
@@ -16265,7 +16265,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 2,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Ecklonia cava"
       ],
@@ -16283,7 +16283,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 2,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Caffeine",
         "L-Theanine"
@@ -16302,7 +16302,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 1,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Vitamin C"
       ],
@@ -16320,7 +16320,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 1,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Phosphorus"
       ],
@@ -16338,7 +16338,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 1,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Manganese"
       ],
@@ -16356,7 +16356,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 1,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Kava (Piper methysticum)"
       ],
@@ -16374,7 +16374,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 3,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Iron",
         "Chlorella"
@@ -16393,7 +16393,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 1,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Polygala tenuifolia (Yuan Zhi)"
       ],
@@ -16411,7 +16411,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 4,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Magnesium",
         "Chromium",
@@ -16432,7 +16432,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 2,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Collagen"
       ],
@@ -16450,7 +16450,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 1,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Agaricus blazei (Himematsutake)"
       ],
@@ -16468,7 +16468,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 1,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "L-Tryptophan"
       ],
@@ -16486,7 +16486,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 1,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Schisandra Berry"
       ],
@@ -16504,7 +16504,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 2,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "L-Leucine (BCAA)",
         "Leucine"
@@ -16523,7 +16523,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 1,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Boswellia serrata"
       ],
@@ -16541,7 +16541,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 1,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Choline"
       ],
@@ -16559,7 +16559,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 1,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [],
       "category": "Small Brand",
       "url": "brands/terraform-nutrition/",
@@ -16575,7 +16575,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 1,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Fadogia agrestis"
       ],
@@ -16593,7 +16593,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 1,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Garlic (Allium sativum)"
       ],
@@ -16611,7 +16611,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 2,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Shilajit"
       ],
@@ -16629,7 +16629,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 1,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [],
       "category": "Small Brand",
       "url": "brands/true-veda/",
@@ -16645,7 +16645,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 1,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Wild Yam (Dioscorea villosa)"
       ],
@@ -16663,7 +16663,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 1,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Kava (Piper methysticum)"
       ],
@@ -16681,7 +16681,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 1,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Mucuna pruriens (Velvet Bean)"
       ],
@@ -16699,7 +16699,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 0,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [],
       "category": "Small Brand",
       "url": "brands/vitacrllynmn/",
@@ -16715,7 +16715,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 3,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Magnesium",
         "Potassium",
@@ -16735,7 +16735,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 0,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [],
       "category": "Small Brand",
       "url": "brands/vigorizar/",
@@ -16751,7 +16751,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 1,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Shilajit"
       ],
@@ -16769,7 +16769,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 1,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Resveratrol"
       ],
@@ -16787,7 +16787,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 5,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Branched-Chain Amino Acids",
         "L-Leucine (BCAA)",
@@ -16809,7 +16809,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 3,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Protease",
         "Lipase"
@@ -16828,7 +16828,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 1,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Protease"
       ],
@@ -16846,7 +16846,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 1,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Vitex (Chaste Tree Berry)"
       ],
@@ -16864,7 +16864,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 2,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Potassium",
         "Sodium"
@@ -16883,7 +16883,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 2,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Vitamin C",
         "Iron"
@@ -16902,7 +16902,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 1,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Ashitaba (Angelica keiskei)"
       ],
@@ -16920,7 +16920,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 1,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Terminalia chebula"
       ],
@@ -16938,7 +16938,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 3,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Vitamin D",
         "Curcumin"
@@ -16957,7 +16957,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 1,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [],
       "category": "Small Brand",
       "url": "brands/welmate/",
@@ -16973,7 +16973,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 1,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Lactobacillus rhamnosus"
       ],
@@ -16991,7 +16991,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 1,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Policosanol"
       ],
@@ -17009,7 +17009,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 1,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Apple Cider Vinegar"
       ],
@@ -17027,7 +17027,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 1,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Phosphorus"
       ],
@@ -17045,7 +17045,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 1,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Milk Thistle (Silybum marianum)"
       ],
@@ -17063,7 +17063,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 1,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Agaricus blazei (Himematsutake)"
       ],
@@ -17081,7 +17081,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 2,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Probiotics"
       ],
@@ -17099,7 +17099,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 1,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Rhaponticum carthamoides (Maral Root)"
       ],
@@ -17117,7 +17117,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 3,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Lumbrokinase",
         "Nattokinase",
@@ -17137,7 +17137,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 1,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "American Ginseng"
       ],
@@ -17155,7 +17155,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 1,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Zeolite (Clinoptilolite)"
       ],
@@ -17173,7 +17173,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 1,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [],
       "category": "Small Brand",
       "url": "brands/zeotex/",
@@ -17189,7 +17189,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 5,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Ginseng",
         "Shilajit",
@@ -17209,7 +17209,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 2,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Bacillus coagulans"
       ],
@@ -17227,7 +17227,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 1,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Vitamin D"
       ],
@@ -17245,7 +17245,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 1,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Mucuna pruriens (Velvet Bean)"
       ],
@@ -17263,7 +17263,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 1,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Shatavari (Asparagus racemosus)"
       ],
@@ -17281,7 +17281,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 1,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Phyllanthus niruri"
       ],
@@ -17299,7 +17299,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 1,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Vitamin E (Tocopherols/Tocotrienols)"
       ],
@@ -17317,7 +17317,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 0,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [],
       "category": "Small Brand",
       "url": "brands/x12-ormus-with-actual-24k-gold/",
@@ -17333,7 +17333,7 @@
       "product_count": 1,
       "avg_rating": null,
       "ingredient_count": 1,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [
         "Tremella fuciformis (Snow Fungus)"
       ],
@@ -17351,7 +17351,7 @@
       "product_count": 0,
       "avg_rating": null,
       "ingredient_count": 0,
-      "has_research": false,
+      "has_research": true,
       "ingredient_list": [],
       "category": "New Brand",
       "url": "brands/c4-energy/",
@@ -17421,6 +17421,6 @@
     "total_brands": 496,
     "ingredient_categories": 45,
     "brand_categories": 4,
-    "brands_with_research": 35
+    "brands_with_research": 494
   }
 }
