@@ -6,11 +6,13 @@ Allow: /ingredients/
 Allow: /brands/
 Allow: /categories/
 Allow: /systems/
-Allow: /products/
+Allow: /research/
+
 
 # Block admin or sensitive areas if they exist
 Disallow: /admin/
 Disallow: /private/
+Disallow: /pins/
 
 # Sitemap location
 Sitemap: https://supplementopedia.com/sitemap.xml
